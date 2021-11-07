@@ -1,0 +1,37 @@
+@startuml
+title Use Case Diagram
+
+left to right direction
+skinparam packageStyle rect
+skinparam shadowing false
+
+actor User
+actor System
+
+rectangle Movie-Learning-App {
+    together {
+    (set current known vocabulary) as SV
+    (search movie) as SM
+    (select movie to learn) as SML
+    (learn movie vocabulary) as LMV
+    }
+    together {
+    (learn online) as LMVON
+    (learn offline) as LMVOFF
+    }
+    (track learning process) as TLP
+    (create movie vocabulary) as CMV
+}
+
+User -- SV
+User -- SM
+User -- SML
+User -- LMV
+LMVON -u-> LMV
+LMVOFF -u-> LMV
+LMV .-> TLP : includes
+TLP -- System
+LMV .-> CMV : includes
+CMV -- System
+
+@enduml
