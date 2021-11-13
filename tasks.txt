@@ -4,8 +4,11 @@
    Develop a clear strategic design with mappings/relationships
 4) Metrics at least two. Sonarcube would be great
 5) Clean Code Development at least 5 points you can show me + 10 points your cheat sheet
+checkstyle
+
 6) Build Management with any Build System as Ant, Maven, Gradle, etc. (only travis is perhaps not enough) Do e.g. generate Docs, call tests, etc.
 7) Integrate some nice Unit-Tests in your Code to be integrated into the Build
+test-coverage
 8) Continuous Delivery show me your pipeline in e.g. Jenkins, Travis-CI, Circle-CI, GitHub Action, GitLab CI, etc.
 9) Use a good IDE and get fluent with it as e.g. IntelliJ. What are your favorite Key-Shortcuts?!
 10)DSL Create a small DSL Demo example snippet in your code even if it does not contribute to your project

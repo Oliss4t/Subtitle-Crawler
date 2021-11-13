@@ -1,0 +1,76 @@
+@startuml
+title Movie Learning Process
+
+
+
+(*) --> "Learn Movie"
+if "new User?" then
+    -->[true] "Register"
+    -->"Authentication"
+
+else
+    -->[false] "Authentication"
+endif
+
+if "authentication successful?" then
+    -->[true] "Logged In"
+    -->  ===SEARCH_MOVIE1===
+else
+  -->[false] "Error"
+  --> "Authentication"
+endif
+
+
+===SEARCH_MOVIE1===  --> "Search Movie by Name"
+--> ===SEARCH_MOVIE2===
+
+===SEARCH_MOVIE1===  --> "Search Movie by Category"
+--> ===SEARCH_MOVIE2===
+
+===SEARCH_MOVIE1===  --> "Search Movie by Difficulty"
+--> ===SEARCH_MOVIE2===
+
+
+--> "Movie Found"
+
+if "offline learning?" then
+    -->[true] "Download Movie"
+    if "download successful?" then
+        -->[true] "Movie downloaded"
+        -->"Start Learning Vocabulary Block of 10"
+    else
+        -->[false] "Movie uncomplete"
+        --> "Download Movie"
+    endif
+
+else
+    -->[false] "Start Learning Vocabulary Block of 10"
+endif
+
+
+--> "Learn"
+
+if "vocabs in learning Block left?" then
+    -->[true] "User Vocab Test"
+    if "vocab correct?" then
+        -->[true] "Vocab learned"
+        --> "Save Result"
+        -->"Learn"
+    else
+        -->[false] "Vocab wrong"
+        --> "Save Result"
+    endif
+
+else
+    -->[false] if "want to learn again?" then
+        -->[true] "Continue Learning"
+        -->"Start Learning Vocabulary Block of 10"
+    else
+        ---->[false] "End Learning"
+    endif
+endif
+
+
+-->(*)
+
+@enduml

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1419px" preserveAspectRatio="none" style="width:1612px;height:1419px;background:#FFFFFF;" version="1.1" viewBox="0 0 1612 1419" width="1612px" zoomAndPan="magnify"><defs><filter height="300%" id="f1rlemwpi8ragv" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[6315996143a7e2a981d9a87ce9f1b04e]
+cluster SubtitleAPI--><polygon fill="#FFFFFF" filter="url(#f1rlemwpi8ragv)" points="1254,708,1264,698,1595,698,1595,1033,1585,1043,1254,1043,1254,708" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1585" x2="1595" y1="708" y2="698"/><line style="stroke:#000000;stroke-width:1.5;" x1="1254" x2="1585" y1="708" y2="708"/><line style="stroke:#000000;stroke-width:1.5;" x1="1585" x2="1585" y1="708" y2="1043"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="91" x="1375" y="723.9951">SubtitleAPI</text><!--MD5=[11ceb0c6b673c1023d650c7f15e146ab]
+cluster TranslationAPI--><polygon fill="#FFFFFF" filter="url(#f1rlemwpi8ragv)" points="1029.5,16,1039.5,6,1389,6,1389,341,1379,351,1029.5,351,1029.5,16" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1379" x2="1389" y1="16" y2="6"/><line style="stroke:#000000;stroke-width:1.5;" x1="1029.5" x2="1379" y1="16" y2="16"/><line style="stroke:#000000;stroke-width:1.5;" x1="1379" x2="1379" y1="16" y2="351"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="121" x="1144.75" y="31.9951">TranslationAPI</text><!--MD5=[a8bb3a92c62a3e1b35722624661bd75d]
+cluster IMDBAPI--><polygon fill="#FFFFFF" filter="url(#f1rlemwpi8ragv)" points="1029.5,1077,1039.5,1067,1377,1067,1377,1402,1367,1412,1029.5,1412,1029.5,1077" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1367" x2="1377" y1="1077" y2="1067"/><line style="stroke:#000000;stroke-width:1.5;" x1="1029.5" x2="1367" y1="1077" y2="1077"/><line style="stroke:#000000;stroke-width:1.5;" x1="1367" x2="1367" y1="1077" y2="1412"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="67" x="1165.75" y="1092.9951">IMDBAPI</text><!--MD5=[a3a458535fdcfbbb6367078bc381dc55]
+cluster Clients--><polygon fill="#FFFFFF" filter="url(#f1rlemwpi8ragv)" points="16,684,26,674,180,674,180,928,170,938,16,938,16,684" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="170" x2="180" y1="684" y2="674"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="170" y1="684" y2="684"/><line style="stroke:#000000;stroke-width:1.5;" x1="170" x2="170" y1="684" y2="938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="56" x="66" y="699.9951">Clients</text><!--MD5=[b4e09d266be9964199f2622adcc056fa]
+cluster Backend--><polygon fill="#FFFFFF" filter="url(#f1rlemwpi8ragv)" points="208,385,218,375,1213,375,1213,1016,1203,1026,208,1026,208,385" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1203" x2="1213" y1="385" y2="375"/><line style="stroke:#000000;stroke-width:1.5;" x1="208" x2="1203" y1="385" y2="385"/><line style="stroke:#000000;stroke-width:1.5;" x1="1203" x2="1203" y1="385" y2="1026"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="68" x="672.5" y="400.9951">Backend</text><rect fill="#FFFFFF" filter="url(#f1rlemwpi8ragv)" height="579" style="stroke:#000000;stroke-width:1.5;" width="657" x="532" y="423"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="1169" y="428"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="1167" y="430"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="1167" y="434"/><!--MD5=[07037baecb682a3a6a0d5bd89b164524]
+cluster UserContext--><rect fill="#FFFFFF" filter="url(#f1rlemwpi8ragv)" height="97" style="stroke:#000000;stroke-width:1.5;" width="346" x="571.5" y="582"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="897.5" y="587"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="895.5" y="589"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="895.5" y="593"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="100" x="694.5" y="607.9951">UserContext</text><!--MD5=[3aca8ad1767e423c6b234d373be4360b]
+cluster LearningContext--><rect fill="#FFFFFF" filter="url(#f1rlemwpi8ragv)" height="97" style="stroke:#000000;stroke-width:1.5;" width="367" x="556" y="760"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="903" y="765"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="901" y="767"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="901" y="771"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="134" x="672.5" y="785.9951">LearningContext</text><!--MD5=[3f93f3269b41b97406244f03e8f37126]
+cluster DataPreparation--><rect fill="#FFFFFF" filter="url(#f1rlemwpi8ragv)" height="97" style="stroke:#000000;stroke-width:1.5;" width="382.5" x="782.5" y="881"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="1145" y="886"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="1143" y="888"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="1143" y="892"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="135" x="906.25" y="906.9951">DataPreparation</text><!--MD5=[3c2fde46b6ab3bb8665ed1c62bc9ad12]
+cluster Backup--><rect fill="#FFFFFF" filter="url(#f1rlemwpi8ragv)" height="97" style="stroke:#000000;stroke-width:1.5;" width="126" x="1013.5" y="671"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="1119.5" y="676"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="1117.5" y="678"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="1117.5" y="682"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="1047" y="696.9951">Backup</text><!--MD5=[7e3330c2722f5b15073efe6018edea56]
+entity HTTPS2--><ellipse cx="1301" cy="923" fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="1278" y="952.9951">HTTPS</text><!--MD5=[861bf24b04bd1233aaf276f6046ec3e2]
+entity Version_Check--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="146" x="1433" y="981"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1559" y="986"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1557" y="988"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1557" y="992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="1448" y="1013.9951">Version_Check</text><!--MD5=[30abe20ee3696a761e90802a1121d261]
+entity Availability--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="119" x="1446.5" y="900"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1545.5" y="905"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1543.5" y="907"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1543.5" y="911"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="1461.5" y="932.9951">Availability</text><!--MD5=[143a04d91ab79baecfe840ad339040fe]
+entity Download--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="110" x="1451" y="819"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1541" y="824"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1539" y="826"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1539" y="830"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="1466" y="851.9951">Download</text><!--MD5=[f474ca078bd78d29e43d9c9138696efb]
+entity Image--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="84" x="1464" y="738"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1528" y="743"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1526" y="745"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1526" y="749"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="1479" y="770.9951">Image</text><!--MD5=[35b7811672f5d8db29059d49f0989e87]
+entity HTTPS3--><ellipse cx="1076.5" cy="231" fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="1053.5" y="260.9951">HTTPS</text><!--MD5=[67a2486390ae1ce72e00d8e81c051505]
+entity Root Form--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="116" x="1243" y="127"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1339" y="132"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1337" y="134"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1337" y="138"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1258" y="159.9951">Root Form</text><!--MD5=[f4778b84df2d6e4a87e5330683199641]
+entity Translation--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="120" x="1241" y="46"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1341" y="51"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1339" y="53"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1339" y="57"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="1256" y="78.9951">Translation</text><!--MD5=[695fbfb452327b6c2d45cf346f6646a5]
+entity WordFamily--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="124" x="1239" y="289"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1343" y="294"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1341" y="296"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1341" y="300"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="1254" y="321.9951">WordFamily</text><!--MD5=[048243b5eb4b980d033b136e8de06ebf]
+entity Same Meaning--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="144" x="1229" y="208"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1353" y="213"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1351" y="215"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1351" y="219"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="1244" y="240.9951">Same Meaning</text><!--MD5=[98096f39874e83625021a9f5f1d866a1]
+entity HTTPS4--><ellipse cx="1076.5" cy="1211" fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="1053.5" y="1240.9951">HTTPS</text><!--MD5=[03533c03823b9c7d7ea29d35f87e1f5b]
+entity Rating--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="87" x="1257.5" y="1188"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1324.5" y="1193"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1322.5" y="1195"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1322.5" y="1199"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="1272.5" y="1220.9951">Rating</text><!--MD5=[904085323b814eb568dc8f38cff94e92]
+entity Suggestion--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="120" x="1241" y="1107"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1341" y="1112"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1339" y="1114"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1339" y="1118"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="1256" y="1139.9951">Suggestion</text><!--MD5=[78ccb8af8386e9662b38d82b767a86a5]
+entity Actors--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="87" x="1257.5" y="1350"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1324.5" y="1355"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1322.5" y="1357"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1322.5" y="1361"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="1272.5" y="1382.9951">Actors</text><!--MD5=[bace3e96dc3c4daece8de09d33686960]
+entity Details--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="90" x="1256" y="1269"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1326" y="1274"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1324" y="1276"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1324" y="1280"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="1271" y="1301.9951">Details</text><!--MD5=[ed05b4b62fc63017e649bfedb1046e43]
+entity WebApp--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="103" x="46.5" y="714"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="129.5" y="719"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="127.5" y="721"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="127.5" y="725"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="61.5" y="746.9951">WebApp</text><!--MD5=[b14285dc5e2bd5db9dc673199a4f931d]
+entity NativeApp--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="116" x="40" y="795"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="136" y="800"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="134" y="802"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="134" y="806"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="55" y="827.9951">NativeApp</text><!--MD5=[18f85c96bea5ad57ffe82140688b37f2]
+entity DesktopApp--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="132" x="32" y="876"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="144" y="881"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="142" y="883"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="142" y="887"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="47" y="908.9951">DesktopApp</text><!--MD5=[fe7a20d12f3e16823cd01bca34140e8b]
+entity HTTPS1--><ellipse cx="255" cy="818" fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="232" y="847.9951">HTTPS</text><!--MD5=[cda9cfdc97726baf6ac6ff8efbbaa558]
+entity Gateway/Security--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="166" x="346" y="795"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="492" y="800"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="490" y="802"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="490" y="806"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="361" y="827.9951">Gateway/Security</text><!--MD5=[e93a53d7f90c6b6fc051fd1463ac8a83]
+entity LoggingService--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="150" x="790.5" y="698"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="920.5" y="703"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="918.5" y="705"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="918.5" y="709"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="805.5" y="730.9951">LoggingService</text><!--MD5=[fe41e3de6c60dc6b502fce9be732ef33]
+entity AnalyticService--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="151" x="574" y="876"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="705" y="881"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="703" y="883"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="703" y="887"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="589" y="908.9951">AnalyticService</text><!--MD5=[1ca2de75bef3d0fcdc525ede790129b1]
+entity PaymentService--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="157" x="787" y="520"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="924" y="525"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="922" y="527"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="922" y="531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="802" y="552.9951">PaymentService</text><!--MD5=[d0c8668d0eb85322a9b360905420dfa9]
+entity Mailserver--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="113" x="809" y="439"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="902" y="444"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="900" y="446"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="900" y="450"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="824" y="471.9951">Mailserver</text><!--MD5=[43a817812dddb31c7306ddcbea69bb00]
+entity UserService--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="124" x="587.5" y="617"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="691.5" y="622"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="689.5" y="624"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="689.5" y="628"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="602.5" y="649.9951">UserService</text><!--MD5=[4cb1a77ed2eb8d68526d3b4b446f1016]
+entity UserDB--><path d="M829.5,627.5 C829.5,617.5 865.5,617.5 865.5,617.5 C865.5,617.5 901.5,617.5 901.5,627.5 L901.5,652.7969 C901.5,662.7969 865.5,662.7969 865.5,662.7969 C865.5,662.7969 829.5,662.7969 829.5,652.7969 L829.5,627.5 " fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" style="stroke:#000000;stroke-width:1.5;"/><path d="M829.5,627.5 C829.5,637.5 865.5,637.5 865.5,637.5 C865.5,637.5 901.5,637.5 901.5,627.5 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="839.5" y="654.4951">UserDB</text><!--MD5=[c89e23aba17931b1f6c6ee0a2564707c]
+entity LearningService--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="155" x="572" y="795"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="707" y="800"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="705" y="802"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="705" y="806"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="587" y="827.9951">LearningService</text><!--MD5=[fd232b68c230c6bef2f5f7ad5ee44736]
+entity MovieDB--><path d="M824,805.5 C824,795.5 865.5,795.5 865.5,795.5 C865.5,795.5 907,795.5 907,805.5 L907,830.7969 C907,840.7969 865.5,840.7969 865.5,840.7969 C865.5,840.7969 824,840.7969 824,830.7969 L824,805.5 " fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" style="stroke:#000000;stroke-width:1.5;"/><path d="M824,805.5 C824,815.5 865.5,815.5 865.5,815.5 C865.5,815.5 907,815.5 907,805.5 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="834" y="832.4951">MovieDB</text><!--MD5=[506fc1f83bfdbb21121c8e06df9fb271]
+entity MovieScraping--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="145" x="1004" y="916"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1129" y="921"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1127" y="923"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1127" y="927"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="1019" y="948.9951">MovieScraping</text><!--MD5=[c22c172f23f525c045857f522988326a]
+entity MovieParsing--><rect fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="134" x="798.5" y="916"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="912.5" y="921"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="910.5" y="923"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="910.5" y="927"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="813.5" y="948.9951">MovieParsing</text><!--MD5=[de9ba10b321d2cac806c582a86d0a093]
+entity BackupDB--><path d="M1029.5,716.5 C1029.5,706.5 1076.5,706.5 1076.5,706.5 C1076.5,706.5 1123.5,706.5 1123.5,716.5 L1123.5,741.7969 C1123.5,751.7969 1076.5,751.7969 1076.5,751.7969 C1076.5,751.7969 1029.5,751.7969 1029.5,741.7969 L1029.5,716.5 " fill="#FEFECE" filter="url(#f1rlemwpi8ragv)" style="stroke:#000000;stroke-width:1.5;"/><path d="M1029.5,716.5 C1029.5,726.5 1076.5,726.5 1076.5,726.5 C1076.5,726.5 1123.5,726.5 1123.5,716.5 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="1039.5" y="743.4951">BackupDB</text><!--MD5=[f929ccd4c0c60c7521b8b815e58d449f]
+link HTTPS2 to Version_Check--><path d="M1314.97,928.173 C1340.18,938.236 1397.32,961.035 1442.4,979.021 " fill="none" id="HTTPS2-Version_Check" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1447.28,980.967,1440.4085,973.9113,1442.6374,979.1105,1437.4382,981.3394,1447.28,980.967" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1310.21,926.276,1317.0815,933.3317,1314.8526,928.1325,1320.0518,925.9036,1310.21,926.276" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c3d6fca2aff338a7f9ce7d749cc624a7]
+link HTTPS2 to Availability--><path d="M1315.26,923 C1340.4,923 1396.49,923 1441.2,923 " fill="none" id="HTTPS2-Availability" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1446.32,923,1437.32,919,1441.32,923,1437.32,927,1446.32,923" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1310.21,923,1319.21,927,1315.21,923,1319.21,919,1310.21,923" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[2a5f9623f33f882b1bc87d094ea27877]
+link HTTPS2 to Download--><path d="M1315.08,917.779 C1340.98,907.446 1400.2,883.818 1445.67,865.672 " fill="none" id="HTTPS2-Download" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1450.59,863.712,1440.7482,863.3396,1445.9474,865.5685,1443.7185,870.7677,1450.59,863.712" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1310.21,919.724,1320.0518,920.0964,1314.8526,917.8675,1317.0815,912.6683,1310.21,919.724" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7bcc1554ae243717f364d65c77956433]
+link HTTPS2 to Image--><path d="M1313.83,910.296 C1335.87,887.063 1385.29,836.911 1433,802 C1441.28,795.941 1450.54,790.076 1459.58,784.766 " fill="none" id="HTTPS2-Image" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1464,782.206,1454.2088,783.2704,1459.6772,784.7186,1458.229,790.187,1464,782.206" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1310.29,914.049,1319.3735,910.2423,1313.7191,910.4101,1313.5513,904.7558,1310.29,914.049" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5209903a4aa8e955dcddbc67ae7d6e2a]
+link HTTPS3 to Root Form--><path d="M1090.62,226.22 C1118.86,215.94 1186.98,191.15 1237.9,172.61 " fill="none" id="HTTPS3-Root Form" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1242.77,170.83,1232.9461,170.1297,1238.0681,172.5307,1235.6672,177.6527,1242.77,170.83" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1085.68,228.02,1095.5058,228.6939,1090.3773,226.3067,1092.7645,221.1782,1085.68,228.02" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f91a42cdebffcdaa343f1d75fd6b2eaf]
+link HTTPS3 to Translation--><path d="M1089.66,220.05 C1114.7,197.75 1174.29,146.07 1229,109 C1236.31,104.04 1244.28,99.13 1252.15,94.52 " fill="none" id="HTTPS3-Translation" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1256.51,92,1246.7159,93.0374,1252.1803,94.5007,1250.717,99.965,1256.51,92" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1085.67,223.61,1095.0477,220.6003,1089.3999,220.2802,1089.7201,214.6324,1085.67,223.61" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5a65cf80c3e44f543442886b9ed8a885]
+link HTTPS3 to WordFamily--><path d="M1090.49,235.73 C1117.95,245.73 1183.53,269.6 1234.06,287.99 " fill="none" id="HTTPS3-WordFamily" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1238.9,289.76,1231.8155,282.9182,1234.2027,288.0467,1229.0742,290.4339,1238.9,289.76" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1085.68,233.98,1092.7645,240.8218,1090.3773,235.6933,1095.5058,233.3061,1085.68,233.98" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[773855c604f2b0c0c355bc0ff8750d49]
+link HTTPS3 to Same Meaning--><path d="M1090.83,231 C1116.6,231 1174.97,231 1223.53,231 " fill="none" id="HTTPS3-Same Meaning" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1228.79,231,1219.79,227,1223.79,231,1219.79,235,1228.79,231" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1085.68,231,1094.68,235,1090.68,231,1094.68,227,1085.68,231" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[46e8c9046282a161c7b08c97ee74bb1d]
+link HTTPS4 to Rating--><path d="M1090.73,1211 C1121.8,1211 1200.69,1211 1252.24,1211 " fill="none" id="HTTPS4-Rating" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1257.45,1211,1248.45,1207,1252.45,1211,1248.45,1215,1257.45,1211" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1085.68,1211,1094.68,1215,1090.68,1211,1094.68,1207,1085.68,1211" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b75fda2dd92e39afcec03b9d926a80f6]
+link HTTPS4 to Suggestion--><path d="M1090.56,1206.246 C1118.43,1196.098 1185.36,1171.734 1236.12,1153.257 " fill="none" id="HTTPS4-Suggestion" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1240.97,1151.488,1231.1442,1150.8151,1236.2729,1153.2018,1233.8862,1158.3305,1240.97,1151.488" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1085.68,1208.021,1095.5058,1208.6939,1090.3771,1206.3072,1092.7638,1201.1785,1085.68,1208.021" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[602d0d44caec8cf283437be518a6d413]
+link HTTPS4 to Actors--><path d="M1089.66,1221.954 C1114.7,1244.252 1174.29,1295.933 1229,1333 C1236.51,1338.0889 1244.71,1343.1382 1252.79,1347.8484 " fill="none" id="HTTPS4-Actors" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1257.26,1350.4284,1251.4656,1342.4644,1252.9298,1347.9285,1247.4658,1349.3927,1257.26,1350.4284" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1085.67,1218.388,1089.7201,1227.3656,1089.3999,1221.7178,1095.0477,1221.3977,1085.67,1218.388" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6f0cf2ddc80f25b90c826de0e083ebb6]
+link HTTPS4 to Details--><path d="M1090.67,1215.793 C1121.38,1226.974 1199.06,1255.255 1250.67,1274.041 " fill="none" id="HTTPS4-Details" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1255.58,1275.828,1248.4962,1268.9855,1250.8829,1274.1142,1245.7542,1276.5009,1255.58,1275.828" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1085.68,1213.979,1092.7638,1220.8215,1090.3771,1215.6928,1095.5058,1213.3061,1085.68,1213.979" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5cb8a161a21f8ea208e82f6695926300]
+link HTTPS1 to Gateway/Security--><path d="M269.444,818 C285.2,818 312.695,818 340.411,818 " fill="none" id="HTTPS1-Gateway/Security" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="345.585,818,336.585,814,340.585,818,336.585,822,345.585,818" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="264.296,818,273.296,822,269.296,818,273.296,814,264.296,818" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c3646d995f6c1e882d42bd71a16792b6]
+link Gateway/Security to UserService--><path d="M462.593,791.448 C503.923,757.779 574.757,700.075 616.028,666.453 " fill="none" id="Gateway/Security-UserService" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="619.928,663.276,610.424,665.8593,616.0515,666.434,615.4768,672.0616,619.928,663.276" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="458.565,794.73,468.0686,792.145,462.4409,791.5713,463.0146,785.9436,458.565,794.73" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[72965af5bb4cfa83f022fa9a72026f05]
+link Gateway/Security to LearningService--><path d="M517.341,818 C533.491,818 550.308,818 566.299,818 " fill="none" id="Gateway/Security-LearningService" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="571.689,818,562.689,814,566.689,818,562.689,822,571.689,818" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="512.294,818,521.294,822,517.294,818,521.294,814,512.294,818" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6bce3476299f6f07712a660857e4cc8f]
+reverse link Gateway/Security to AnalyticService--><path d="M488.863,843.14 C500.454,847.887 512.567,852.705 524,857 C541.19,863.457 559.88,870.006 577.427,875.951 " fill="none" id="Gateway/Security-backto-AnalyticService" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="483.931,841.111,490.7336,848.2331,488.5553,843.0124,493.776,840.8341,483.931,841.111" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[40e2f4e4c8038dcb0c377cfeb8a3bc40]
+link UserService to PaymentService--><path d="M706.317,614.7 C737.936,600.368 777.356,582.5 808.933,568.187 " fill="none" id="UserService-PaymentService" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="813.534,566.102,803.6854,566.1743,808.98,568.1662,806.9881,573.4607,813.534,566.102" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="701.486,616.889,711.3346,616.8167,706.04,614.8248,708.0319,609.5303,701.486,616.889" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e464e140ed95aea9ed19e0a590d36ae3]
+link UserService to UserDB--><path d="M716.967,640 C752.125,640 794.134,640 824.317,640 " fill="none" id="UserService-UserDB" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="829.433,640,820.433,636,824.433,640,820.433,644,829.433,640" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="711.537,640,720.537,644,716.537,640,720.537,636,711.537,640" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e8912a907637c4faa2ddb40bb9cdf782]
+link UserService to Mailserver--><path d="M666.647,616.977 C688.348,587.396 729.439,535.945 774.5,503 C783.515,496.409 793.758,490.521 804.024,485.403 " fill="none" id="UserService-to-Mailserver" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="808.738,483.107,798.8952,483.4524,804.243,485.2967,802.3987,490.6444,808.738,483.107" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e7196ea4121cb7f90c8ad87faba9568f]
+link UserDB to BackupDB--><path d="M901.513,651.325 C914.921,655.888 930.283,661.395 944,667 C971.605,678.28 1001.74,692.353 1026.19,704.24 " fill="none" id="UserDB-to-BackupDB" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1030.68,706.433,1024.3552,698.8834,1026.1892,704.2347,1020.8379,706.0687,1030.68,706.433" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[723361e47002908cc91e31504a8818af]
+link UserService to LoggingService--><path d="M711.537,663.103 C738.748,673.402 770.855,685.555 798.61,696.06 " fill="none" id="UserService-to-LoggingService" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="803.382,697.866,796.381,690.9388,798.7058,696.0958,793.5488,698.4206,803.382,697.866" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[663049f5bedb06616a2f1e32df2c60e3]
+reverse link LearningService to MovieParsing--><path d="M723.494,843.266 C724.676,843.836 725.846,844.415 727,845 C766.843,865.212 808.676,895.266 835.585,915.919 " fill="none" id="LearningService-backto-MovieParsing" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="718.872,841.102,725.3271,848.5405,723.4004,843.2219,728.719,841.2951,718.872,841.102" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1cf62351287bba758575537824450817]
+link LearningService to MovieDB--><path d="M732.541,818 C761.691,818 793.458,818 818.518,818 " fill="none" id="LearningService-MovieDB" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="823.76,818,814.76,814,818.76,818,814.76,822,823.76,818" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="727.154,818,736.154,822,732.154,818,736.154,814,727.154,818" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[14827bd814603b655a7473ca7dcba9c8]
+link MovieDB to BackupDB--><path d="M907.068,805.435 C919.071,801.438 932.163,796.8 944,792 C972.158,780.582 1002.82,766.022 1027.45,753.775 " fill="none" id="MovieDB-to-BackupDB" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1031.97,751.517,1022.1306,751.9491,1027.4944,753.7462,1025.6974,759.11,1031.97,751.517" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4a44626043b69f2be15b51b776dfdb76]
+link LearningService to LoggingService--><path d="M701.486,794.889 C733.772,780.255 775.534,761.326 808.704,746.291 " fill="none" id="LearningService-to-LoggingService" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="813.534,744.102,803.6854,744.1743,808.98,746.1662,806.9881,751.4607,813.534,744.102" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a94b11ea6033798695664f4a40ff738d]
+reverse link MovieParsing to MovieScraping--><path d="M937.705,939 C958.987,939 982.325,939 1003.65,939 " fill="none" id="MovieParsing-backto-MovieScraping" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="932.629,939,941.629,943,937.629,939,941.629,935,932.629,939" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[bc0aba1da9272a0782386c9c5b2b4be7]
+reverse link MovieScraping to HTTPS2--><path d="M1154.14,933.489 C1206.37,929.733 1269.9,925.165 1291.98,923.577 " fill="none" id="MovieScraping-backto-HTTPS2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1149.13,933.849,1158.3927,937.1959,1154.1172,933.4919,1157.8213,929.2163,1149.13,933.849" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d82658977ec600e2342a0f064ccfc6b0]
+reverse link MovieParsing to HTTPS3--><path d="M899.349,912.074 C915.165,897.392 933.032,877.959 944,857 C1004.63,741.141 1064.99,308.69 1074.27,240.17 " fill="none" id="MovieParsing-backto-HTTPS3" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="895.378,915.703,904.7203,912.5852,899.0692,912.3303,899.3241,906.6792,895.378,915.703" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[792c4323b52412b1d616f0226f407b01]
+reverse link MovieParsing to HTTPS4--><path d="M887.503,966.334 C933.216,1025.827 1039.91,1164.686 1068.4,1201.762 " fill="none" id="MovieParsing-backto-HTTPS4" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="884.319,962.191,886.6324,971.7643,887.3661,966.1552,892.9752,966.8889,884.319,962.191" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6a0781dcefa977b9ffeb403b2d3d63a1]
+link WebApp to HTTPS1--><path d="M149.848,759.221 C162.452,765.058 175.83,771.536 188,778 C206.969,788.076 228.063,801.219 241.181,809.636 " fill="none" id="WebApp-to-HTTPS1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="245.635,812.508,240.2407,804.2678,241.4335,809.7974,235.9038,810.9902,245.635,812.508" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5f1458838b3df8a33069ca04e55c375d]
+link NativeApp to HTTPS1--><path d="M156.276,818 C186.912,818 222.081,818 240.744,818 " fill="none" id="NativeApp-to-HTTPS1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="245.983,818,236.983,814,240.983,818,236.983,822,245.983,818" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4727aacf0a8a679b6adcd0e738325204]
+link DesktopApp to HTTPS1--><path d="M153.682,875.81 C165.156,870.56 177.084,864.81 188,859 C207.089,848.839 228.152,835.326 241.231,826.644 " fill="none" id="DesktopApp-to-HTTPS1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="245.67,823.679,235.9647,825.3546,241.513,826.4574,240.4102,832.0058,245.67,823.679" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ef862a36d958fb4744449961146b26b1]
+@startuml
+left to right direction
+'skinparam packageStyle rect
+'skinparam shadowing false
+
+node SubtitleAPI {
+    interface "HTTPS" as HTTPS2
+    component [Version_Check]
+    component [Availability]
+    component [Download]
+    component [Image]
+    
+    HTTPS2 <- -> [Version_Check]
+    HTTPS2 <- -> [Availability]
+    HTTPS2 <- -> [Download]
+    HTTPS2 <- -> [Image]
+}
+
+node TranslationAPI {
+    interface "HTTPS" as HTTPS3
+    component [Root Form]
+    component [Translation]
+    component [WordFamily]
+    component [Same Meaning]
+    
+    HTTPS3 <- -> [Root Form]
+    HTTPS3 <- -> [Translation]
+    HTTPS3 <- -> [WordFamily]
+    HTTPS3 <- -> [Same Meaning]
+
+}
+
+node IMDBAPI {
+    interface "HTTPS" as HTTPS4
+    component [Rating]
+    component [Suggestion]
+    component [Actors]
+    component [Details]
+    
+    HTTPS4 <- -> [Rating]
+    HTTPS4 <- -> [Suggestion]
+    HTTPS4 <- -> [Actors]
+    HTTPS4 <- -> [Details]
+}
+
+
+node Clients {
+    [WebApp]
+    [NativeApp]
+    [DesktopApp]
+
+}
+
+
+node [Backend] {
+    interface "HTTPS" as HTTPS1
+    component [Gateway/Security]
+    component {
+        component [UserContext] {
+            component [UserService]
+            database "UserDB"
+        }
+        component [LearningContext] {
+            component [LearningService]
+            database "MovieDB"
+        }
+        component [DataPreparation] {
+            component [MovieScraping]
+            component [MovieParsing]
+        }
+        component [LoggingService]
+        component [AnalyticService]
+        component [PaymentService]
+        component [Backup] {
+            database "BackupDB"
+        }
+        component [Mailserver]
+
+
+    HTTPS1 <- -> [Gateway/Security] 
+
+    [Gateway/Security] <- -> [UserService]
+    [Gateway/Security] <- -> [LearningService]
+    '[Gateway/Security] <- -> [PaymentService]
+    [Gateway/Security] <- - [AnalyticService]
+    
+    
+    [UserService] <- -> [PaymentService]
+    [UserService] <- -> [UserDB]
+    [UserService] - -> [Mailserver]
+    [UserDB] - -> [BackupDB]
+    [UserService] - -> [LoggingService]
+    
+    [LearningService] <- - [MovieParsing]
+    [LearningService] <- -> [MovieDB]
+    [MovieDB] - -> [BackupDB]
+    [LearningService] - -> [LoggingService]
+    
+    
+    [MovieParsing] <- - [MovieScraping]
+    
+    
+    [MovieScraping] <- - HTTPS2
+    
+    [MovieParsing] <- - HTTPS3
+    
+    [MovieParsing] <- - HTTPS4
+
+    }
+
+}
+
+
+[WebApp] - -> HTTPS1
+[NativeApp] - -> HTTPS1
+[DesktopApp] - -> HTTPS1
+@enduml
+
+@startuml
+left to right direction
+
+node SubtitleAPI {
+    interface "HTTPS" as HTTPS2
+    component [Version_Check]
+    component [Availability]
+    component [Download]
+    component [Image]
+    
+    HTTPS2 <- -> [Version_Check]
+    HTTPS2 <- -> [Availability]
+    HTTPS2 <- -> [Download]
+    HTTPS2 <- -> [Image]
+}
+
+node TranslationAPI {
+    interface "HTTPS" as HTTPS3
+    component [Root Form]
+    component [Translation]
+    component [WordFamily]
+    component [Same Meaning]
+    
+    HTTPS3 <- -> [Root Form]
+    HTTPS3 <- -> [Translation]
+    HTTPS3 <- -> [WordFamily]
+    HTTPS3 <- -> [Same Meaning]
+
+}
+
+node IMDBAPI {
+    interface "HTTPS" as HTTPS4
+    component [Rating]
+    component [Suggestion]
+    component [Actors]
+    component [Details]
+    
+    HTTPS4 <- -> [Rating]
+    HTTPS4 <- -> [Suggestion]
+    HTTPS4 <- -> [Actors]
+    HTTPS4 <- -> [Details]
+}
+
+
+node Clients {
+    [WebApp]
+    [NativeApp]
+    [DesktopApp]
+
+}
+
+
+node [Backend] {
+    interface "HTTPS" as HTTPS1
+    component [Gateway/Security]
+    component {
+        component [UserContext] {
+            component [UserService]
+            database "UserDB"
+        }
+        component [LearningContext] {
+            component [LearningService]
+            database "MovieDB"
+        }
+        component [DataPreparation] {
+            component [MovieScraping]
+            component [MovieParsing]
+        }
+        component [LoggingService]
+        component [AnalyticService]
+        component [PaymentService]
+        component [Backup] {
+            database "BackupDB"
+        }
+        component [Mailserver]
+
+
+    HTTPS1 <- -> [Gateway/Security] 
+
+    [Gateway/Security] <- -> [UserService]
+    [Gateway/Security] <- -> [LearningService]
+    [Gateway/Security] <- - [AnalyticService]
+    
+    
+    [UserService] <- -> [PaymentService]
+    [UserService] <- -> [UserDB]
+    [UserService] - -> [Mailserver]
+    [UserDB] - -> [BackupDB]
+    [UserService] - -> [LoggingService]
+    
+    [LearningService] <- - [MovieParsing]
+    [LearningService] <- -> [MovieDB]
+    [MovieDB] - -> [BackupDB]
+    [LearningService] - -> [LoggingService]
+    
+    
+    [MovieParsing] <- - [MovieScraping]
+    
+    
+    [MovieScraping] <- - HTTPS2
+    
+    [MovieParsing] <- - HTTPS3
+    
+    [MovieParsing] <- - HTTPS4
+
+    }
+
+}
+
+
+[WebApp] - -> HTTPS1
+[NativeApp] - -> HTTPS1
+[DesktopApp] - -> HTTPS1
+@enduml
+
+PlantUML version 1.2021.14(Fri Nov 12 16:46:50 UTC 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="414px" preserveAspectRatio="none" style="width:819px;height:414px;background:#FFFFFF;" version="1.1" viewBox="0 0 819 414" width="819px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="170" x="318" y="16.708">Use Case Diagram</text><!--MD5=[4c8cc0a7458de23cea27e84b5140705f]
+cluster Movie-Learning-App--><rect fill="#FFFFFF" height="381" style="stroke:#000000;stroke-width:1.5;" width="627" x="84" y="27.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="160" x="317.5" y="42.9482">Movie-Learning-App</text><ellipse cx="589.6626" cy="242.9857" fill="#FEFECE" rx="98.1626" ry="22.0325" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="509.6626" y="245.8323">track learning process</text><ellipse cx="589.4496" cy="323.9431" fill="#FEFECE" rx="105.4496" ry="23.4899" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="176" x="501.4496" y="326.7897">create movie vocabulary</text><ellipse cx="246.1802" cy="194.7892" fill="#FEFECE" rx="122.1802" ry="26.836" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="212" x="140.1802" y="197.6358">set current known vocabulary</text><ellipse cx="245.8049" cy="274.0141" fill="#FEFECE" rx="70.8049" ry="16.561" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="195.3049" y="277.7617">search movie</text><ellipse cx="246.0638" cy="346.7659" fill="#FEFECE" rx="94.5638" ry="21.3128" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="170.0638" y="349.6126">select movie to learn</text><ellipse cx="245.9278" cy="109.9387" fill="#FEFECE" rx="100.4278" ry="22.4856" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="163.4278" y="112.7854">learn movie vocabulary</text><ellipse cx="589.3142" cy="169.716" fill="#FEFECE" rx="66.8142" ry="15.7628" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="544.3142" y="173.4635">learn online</text><ellipse cx="589.3807" cy="102.9293" fill="#FEFECE" rx="67.8807" ry="15.9761" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="542.8807" y="106.6768">learn offline</text><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><ellipse cx="21.5" cy="205.4531" fill="#FEFECE" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M21.5,213.4531 L21.5,240.4531 M8.5,221.4531 L34.5,221.4531 M21.5,240.4531 L8.5,255.4531 M21.5,240.4531 L34.5,255.4531 " fill="none" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="6" y="270.9482">User</text><!--MD5=[abea0b42432aea0f9ce66e53feda8644]
+entity System--><ellipse cx="785" cy="249.4531" fill="#FEFECE" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M785,257.4531 L785,284.4531 M772,265.4531 L798,265.4531 M785,284.4531 L772,299.4531 M785,284.4531 L798,299.4531 " fill="none" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="758" y="314.9482">System</text><!--MD5=[777b67972d30576d0db28ab833a66657]
+link User to SV--><path d="M37.0988,232.3281 C60.2538,228.1661 107.237,219.7191 150.69,211.9081 " fill="none" id="User-SV" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[70a28870948c07b459025c9197aab2ad]
+link User to SM--><path d="M37.0988,237.5121 C67.3598,242.8161 138.319,255.2541 188.908,264.1211 " fill="none" id="User-SM" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c732fec89a7e7b7a4614a30c1b0dec8a]
+link User to SML--><path d="M37.0871,263.8821 C46.249,279.2061 59.4676,297.0611 76,307.9531 C100.1388,323.8571 129.939,333.3173 157.76,338.9302 " fill="none" id="User-SML" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[dc1d4fa81f72049affdc144f7f34fdda]
+link User to LMV--><path d="M37.1238,199.2081 C45.9466,181.8851 58.8373,162.2241 76,149.9531 C98.3192,133.9951 126.125,124.3281 152.697,118.4951 " fill="none" id="User-LMV" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[cc73cb45bc0ea098ce685efb0bbc14c3]
+reverse link LMV to LMVON--><path d="M330.714,124.6611 C394.487,135.8661 480.369,150.9551 535.098,160.5711 " fill="none" id="LMV-backto-LMVON" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="325.776,123.7941,333.949,129.2898,330.7007,124.6585,335.332,121.4102,325.776,123.7941" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7447436eba7103e3e4a74058bdc7f624]
+reverse link LMV to LMVOFF--><path d="M351.56,107.8101 C406.958,106.6741 473.352,105.3131 521.746,104.3211 " fill="none" id="LMV-backto-LMVOFF" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="346.235,107.9191,355.3154,111.7331,351.2339,107.8163,355.1508,103.7348,346.235,107.9191" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[fe0cb4befa04e409bf2b2bcb32f39832]
+link LMV to TLP--><path d="M335.321,120.4121 C355.838,126.3781 376.255,135.6341 392,149.9531 C399.389,156.6731 392.941,163.8881 400,170.9531 C428.91,199.8881 470.659,217.4061 507.523,227.9031 " fill="none" id="LMV-to-TLP" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="512.457,229.2751,504.8577,223.0101,507.6398,227.9355,502.7143,230.7176,512.457,229.2751" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52" x="401" y="167.02">includes</text><!--MD5=[d730cbb26c3e1f82966f04f48cf827fa]
+link TLP to System--><path d="M665.589,256.9231 C698.097,262.9711 734.043,269.6591 757.706,274.0611 " fill="none" id="TLP-System" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f7c050f9ab8bb11aa220efd37bcc29cd]
+link LMV to CMV--><path d="M339.688,118.1111 C359.599,124.1791 378.644,134.0591 392,149.9531 C403.921,164.1391 390.079,217.3031 400,232.9531 C423.838,270.5571 468.035,293.0111 507.643,306.2021 " fill="none" id="LMV-to-CMV" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="512.449,307.7661,505.1285,301.1774,507.6944,306.2189,502.653,308.7848,512.449,307.7661" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52" x="401" y="229.02">includes</text><!--MD5=[825b3067de1ecd086c3370a53ec9d681]
+link CMV to System--><path d="M663.103,307.0691 C696.347,299.3371 733.654,290.6611 757.918,285.0191 " fill="none" id="CMV-System" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[af2555467f5178e814ec8f7ee2a8b952]
+@startuml
+title Use Case Diagram
+
+left to right direction
+skinparam packageStyle rect
+skinparam shadowing false
+
+actor User
+actor System
+
+rectangle Movie-Learning-App {
+    together {
+    (set current known vocabulary) as SV
+    (search movie) as SM
+    (select movie to learn) as SML
+    (learn movie vocabulary) as LMV
+    }
+    together {
+    (learn online) as LMVON
+    (learn offline) as LMVOFF
+    }
+    (track learning process) as TLP
+    (create movie vocabulary) as CMV
+}
+
+User - - SV
+User - - SM
+User - - SML
+User - - LMV
+LMVON -u-> LMV
+LMVOFF -u-> LMV
+LMV .-> TLP : includes
+TLP - - System
+LMV .-> CMV : includes
+CMV - - System
+@enduml
+
+PlantUML version 1.2021.14beta6(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

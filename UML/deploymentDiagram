@@ -1,45 +1,122 @@
 @startuml
+left to right direction
+'skinparam packageStyle rect
+'skinparam shadowing false
 
+node SubtitleAPI {
+    interface "HTTPS" as HTTPS2
+    component [Version_Check]
+    component [Availability]
+    component [Download]
+    component [Image]
 
-node UFS {
-  interface AutoScaling
-  interface Compute
-  interface ELB
-}
-node CLC {
-  database DB
-}
-AutoScaling ..> Compute
-AutoScaling ..> ELB
-AutoScaling --> DB
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
+    HTTPS2 <--> [Version_Check]
+    HTTPS2 <--> [Availability]
+    HTTPS2 <--> [Download]
+    HTTPS2 <--> [Image]
 }
 
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
+node TranslationAPI {
+    interface "HTTPS" as HTTPS3
+    component [Root Form]
+    component [Translation]
+    component [WordFamily]
+    component [Same Meaning]
+
+    HTTPS3 <--> [Root Form]
+    HTTPS3 <--> [Translation]
+    HTTPS3 <--> [WordFamily]
+    HTTPS3 <--> [Same Meaning]
+
 }
 
-cloud {
-  [Example 1]
+node IMDBAPI {
+    interface "HTTPS" as HTTPS4
+    component [Rating]
+    component [Suggestion]
+    component [Actors]
+    component [Details]
+
+    HTTPS4 <--> [Rating]
+    HTTPS4 <--> [Suggestion]
+    HTTPS4 <--> [Actors]
+    HTTPS4 <--> [Details]
 }
 
 
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
+node Clients {
+    [WebApp]
+    [NativeApp]
+    [DesktopApp]
+
 }
 
 
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
+node [Backend] {
+    interface "HTTPS" as HTTPS1
+    component [Gateway/Security]
+    component {
+        component [UserContext] {
+            component [UserService]
+            database "UserDB"
+        }
+        component [LearningContext] {
+            component [LearningService]
+            database "MovieDB"
+        }
+        component [DataPreparation] {
+            component [MovieScraping]
+            component [MovieParsing]
+        }
+        component [LoggingService]
+        component [AnalyticService]
+        component [PaymentService]
+        component [Backup] {
+            database "BackupDB"
+        }
+        component [Mailserver]
+
+
+    HTTPS1 <--> [Gateway/Security]
+
+    [Gateway/Security] <--> [UserService]
+    [Gateway/Security] <--> [LearningService]
+    '[Gateway/Security] <--> [PaymentService]
+    [Gateway/Security] <-- [AnalyticService]
+
+
+    [UserService] <--> [PaymentService]
+    [UserService] <--> [UserDB]
+    [UserService] --> [Mailserver]
+    [UserDB] --> [BackupDB]
+    [UserService] --> [LoggingService]
+
+    [LearningService] <-- [MovieParsing]
+    [LearningService] <--> [MovieDB]
+    [MovieDB] --> [BackupDB]
+    [LearningService] --> [LoggingService]
+
+
+    [MovieParsing] <-- [MovieScraping]
+
+
+    [MovieScraping] <-- HTTPS2
+
+    [MovieParsing] <-- HTTPS3
+
+    [MovieParsing] <-- HTTPS4
+
+    }
+
+}
+
+
+[WebApp] --> HTTPS1
+[NativeApp] --> HTTPS1
+[DesktopApp] --> HTTPS1
+
+
+
+
 
 @enduml
