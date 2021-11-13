@@ -1,5 +1,5 @@
-1. Use and understand **Git!**
-2. **UML** at least **3** good diagrams. "good" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please export the pics. I can not install all tools to view them!
+####1. Use and understand **Git!**
+####2. **UML** at least **3** good diagrams. "good" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please export the pics. I can not ####install all tools to view them!
 
 - [Use Case Diagram](UML/use_case_diagram.svg)
 - [Deployment Diagram](UML/deployment_diagram.svg)
