@@ -2,9 +2,9 @@
 Look around here in the version control ;)
 #### 2. **UML** at least **3** good diagrams. "good" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please export the pics. I can not install all tools to view them! ####
 I modelled the following three diagrams:
-- The Use Case Diagram shows the use interactions with the Movie Learning App. There are no other Actors execpt the "Background System" which ensures the data preparation process. 
+- The Use Case Diagram shows the use interactions with the Movie Learning App. There are no other actors except the "Background System" which ensures the data preparation process. 
   - [Use Case Diagram](UML/use_case_diagram.svg)
-- The Deployment Diagram shows the physical deployment of the Movie Learning App. The app has three different client versions. One webapp, one desktop app and one for the native mobile devices. The backend consists of multiple services. The main services are the "Learning Service" which covers the tracking of the learned vocabs for a user and a movie and the "User Service" which handles the authentification/registration as well as the subscription of the users. The backend also fetches data from the three APIs: TranslationAPI, SubtitleAPI and IMDBAPI.
+- The Deployment Diagram shows the physical deployment of the Movie Learning App. The app has three different client versions. One webapp, one desktop app and one for the native mobile devices. The backend consists of multiple services. The main services are the "Learning Service" which covers the tracking of the learned vocabs for a user and a movie and the "User Service" which handles the authentifikation/registration as well as the subscription of the users. The backend also fetches data from the three APIs: TranslationAPI, SubtitleAPI and IMDBAPI.
   - [Deployment Diagram](UML/deployment_diagram.svg)
 - The Activity Diagram shows the workflow of the learning process. A user starts by logging in, selecting whether he wants to learn offline or online and then starts the actual learning process. 
   - [Activity Diagram](UML/activity_diagram.svg)
