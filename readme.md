@@ -1,4 +1,5 @@
 #### 1. Use and understand **Git!** ####
+Look around here in the version control ;)
 #### 2. **UML** at least **3** good diagrams. "good" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please export the pics. I can not install all tools to view them! ####
 I modelled the following three diagrams:
 - The Use Case Diagram shows the use interations with the Movie Learning App. There are no other Actors execpt the "Background Syste" which ensures the data preparation process. 
