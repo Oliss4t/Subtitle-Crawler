@@ -1,7 +1,7 @@
 import os
 import click
-from openSubtitleCrawler import OpenSubtitleCrawler
-from utlis import print_method_result_to_user, read_from_xlsx_file
+from src.openSubtitleCrawler import OpenSubtitleCrawler
+from src.utils import print_method_result_to_user, read_from_xlsx_file
 
 @click.group()
 @click.pass_context
@@ -81,16 +81,13 @@ def download(ctx, movielist, movie):
         _crawler = OpenSubtitleCrawler(ctx.obj.get('username'), ctx.obj.get('password'))
         print_method_result_to_user(_crawler.login())
         if movie:
-            _crawler.search_subtitles(movie)
-            pass
-        if movielist:
-            _list_of_movies = read_from_xlsx_file(movielist)
-            _status, _movies_found = _crawler.search_subtitles(*_list_of_movies)
-            print_method_result_to_user(_status)
-            for _m in _movies_found:
-                print(_m['MovieReleaseName'])
+            _status, _movies_found = _crawler.search_subtitles({"query": movie, "season": "", "episode": ""})
 
-            pass
+        if movielist:
+            _list_of_movies = read_from_xlsx_file(movielist, './input/')
+            _status, _movies_found = _crawler.search_subtitles(*_list_of_movies)
+
+        print_method_result_to_user(_status, _movies_found)
         print_method_result_to_user(_crawler.logout())
 
 @main.command()
@@ -104,8 +101,10 @@ def search(ctx, movie):
         click.secho(f"Provide a movie via '--movie'", fg="red", bold=True)
     else:
         _crawler = OpenSubtitleCrawler(ctx.obj.get('username'), ctx.obj.get('password'))
-        # TODO
-
+        print_method_result_to_user(_crawler.login())
+        _status, _movies_found = _crawler.search_subtitles({"query": movie, "season": "", "episode": ""})
+        print_method_result_to_user(_status, _movies_found)
+        print_method_result_to_user(_crawler.logout())
 
 @main.command()
 def files():

@@ -17,7 +17,8 @@ class OpenSubtitleCrawler:
         self.__user_agent = "TemporaryUserAgent" #requested
         self.__language = "en"
         self.__login_token = ""
-        self.__limit = {'limit': 5}
+        self.__limit_single_movie = {'limit': 5}
+        self.__limit_all_movies = {'limit': 50}
 
 
     def server_status(self) -> bool:
@@ -60,9 +61,16 @@ class OpenSubtitleCrawler:
         :return: subtitle results
         """
         #TODO: look into tags, how can they be used
-        for movie in movies:
-            movie["sublanguageid"] = "eng"
-        _search_result = self.__proxy.SearchSubtitles(self.__login_token, movies, self.__limit)
+        _movies_count_found = 0
+        _movies_count_found = []
+        for _movie in movies:
+            _movie["sublanguageid"] = "eng"
+            _matches, _results = fetch_subtitles_searches_results(_movie)
+            _movies_count_found += _matches
+            _movies_count_found.append()
+
+        print(movies)
+        _search_result = self.__proxy.SearchSubtitles(self.__login_token, movies, self.__limit_all_movies)
         if _search_result['status'] == "200 OK":
             _results = []
             for _r in  _search_result['data']:
@@ -83,9 +91,48 @@ class OpenSubtitleCrawler:
         else:
             return {"Error": "Error while searching."}
 
+    def fetch_subtitles_searches_results(self, movie):
+        _search_result = self.__proxy.SearchSubtitles(self.__login_token, movie, self.__limit_all_movies)
+        if _search_result['status'] == "200 OK":
+            _results = []
+            for _r in _search_result['data']:
+                _entry = {
+                    "MovieName": _r["MovieName"],
+                    "MovieReleaseName": _r["MovieReleaseName"],
+                    "InfoFormat": _r["InfoFormat"],
+                    "SubLanguageID": _r["SubLanguageID"],
+                    "ISO639": _r["ISO639"],
+                    "MovieKind": _r["MovieKind"],
+                    "IDMovieImdb": _r["IDMovieImdb"],
+                    "IDSubtitleFile": _r['IDSubtitleFile'],
+                    "SubEncoding": _r['SubEncoding']
+                }
+                _results.append(_entry)
+            return len(_results), _results
+        else:
+            return None
+
 
     def download_subtitles(self):
         #array DownloadSubtitles( $token, array($IDSubtitleFile, $IDSubtitleFile, ...) )
+        #def download_subtitles(self, movie_name, subtitleID, encoding):
+        #LIMIT is for maximum 20 IDSubtitleFiles, others will be ignored.
+        q = []
+        q.append(subtitleID)
+
+        content = self.proxy.DownloadSubtitles(self.token, q)
+        if content['status'] == '200 OK':
+            # print(content)
+            data_array = content['data']
+            data = data_array[0]['data']
+            with open(movie_name + ".gz", 'wb') as f:
+                f.write(base64.b64decode(data))
+
+            with gzip.open(movie_name + ".gz", 'rb') as f:
+                s = f.read()
+
+            with open(movie_name, 'w') as f:
+                f.write(s.decode(encoding))
         pass
 
     def get_cover_images(self):

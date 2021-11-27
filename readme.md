@@ -1,21 +1,37 @@
+Explanation of the project:
+Command line tool for downloading subtitles and additional information regarding the movie
+
+Installation:
+
+Commands:
+access help: python main.py --help
+
+config
+download -ml/-m -a -s -i -d
+files
+search
+status
+
+
 #### 1. Use and understand **Git!** ####
 Look around here in the version control ;)
 #### 2. **UML** at least **3** good diagrams. "good" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please export the pics. I can not install all tools to view them! ####
 I modelled the following three diagrams:
 - The Use Case Diagram shows the use interactions with the Movie Learning App. There are no other actors except the "Background System" which ensures the data preparation process. 
-  - [Use Case Diagram](UML/use_case_diagram.svg)
+  - [Use Case Diagram](documentation/uml/use_case_diagram.svg)
 - The Deployment Diagram shows the physical deployment of the Movie Learning App. The app has three different client versions. One webapp, one desktop app and one for the native mobile devices. The backend consists of multiple services. The main services are the "Learning Service" which covers the tracking of the learned vocabs for a user and a movie and the "User Service" which handles the authentifikation/registration as well as the subscription of the users. The backend also fetches data from the three APIs: TranslationAPI, SubtitleAPI and IMDBAPI.
-  - [Deployment Diagram](UML/deployment_diagram.svg)
+  - [Deployment Diagram](documentation/uml/deployment_diagram.svg)
 - The Activity Diagram shows the workflow of the learning process. A user starts by logging in, selecting whether he wants to learn offline or online and then starts the actual learning process. 
-  - [Activity Diagram](UML/activity_diagram.svg)
+  - [Activity Diagram](documentation/uml/activity_diagram.svg)
 
 #### 3. **DDD** If your domain is too small, invent other domains around and document these domains (as if you have 10 Mio € from Edlich-Investment!) Develop a clear strategic design with mappings/relationships with 5-0 Domains. It would be nice if these domains are derived from an Event-Storming (but not mandatory). ####
 I started the DDD approach by doing a event storming to figure all domain events out and therefore all domains for my app. Then I combined the related subdomains to the larger domains and modeled their relationships. Furthermore I created the core domain chart and placed every domain in their category (core, supporting or generic).
-- [Event Storming](DDD/event_storming_domains.pdf)
-- [Domain and Subdomain Relationships](DDD/domains_and_sub_domains_core_domain_chart.pdf)
-- [Core Domain Chart](DDD/domains_and_sub_domains_core_domain_chart.pdf)
+- [Event Storming](documentation/ddd/event_storming_domains.pdf)
+- [Domain and Subdomain Relationships](documentation/ddd/domains_and_sub_domains_core_domain_chart.pdf)
+- [Core Domain Chart](documentation/ddd/domains_and_sub_domains_core_domain_chart.pdf)
 #### 4. **Metrics** at least two. Sonarcube would be great. Other non trivial metrics are also fine. ####
 #### 5. **Clean Code Development:** at least **5** points you can show me + >>10 points on your **personal cheat sheet** ####
+Abstract Classes: to define the interface and so that we could switch out the opensubtitlescrapter with another scraper
 #### 6. **Build Management** with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. ####
 #### 7. Integrate some nice **Unit-Tests** in your Code to be integrated into the Build ####
 #### 8. **Continuous Delivery:** show me your pipeline in e.g. Jenkins, Travis-CI, Circle-CI, GitHub Action, GitLab CI, etc. ####

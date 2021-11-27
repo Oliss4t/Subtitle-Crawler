@@ -2,19 +2,25 @@ import click
 import openpyxl
 from pathlib import Path
 
-def print_method_result_to_user(_result: []):
+import os
+
+def print_method_result_to_user(_result: [], _movies_found: [] = None ):
     """
     prints the colored result from methods to the command line.
     """
     click.secho(_result["Success"], fg="green", bold=True)if _result["Success"] else click.secho(_result["Error"], fg="red", bold=True)
+    if _movies_found is not None:
+        for _m in _movies_found:
+            click.secho(_m['MovieReleaseName'])
 
-def read_from_xlsx_file(_filename: str):
+def read_from_xlsx_file(_filename: str, _directory: str) -> {}:
     """
     reads and converts data from an xlsx file to a dictionary
     :param _filename: filename of the xlsx file containing the information movie name, season, episode
     :return: dictionary of movies and series
     """
-    _xlsx_file = Path('./', f"{_filename}.xlsx")
+    print(os.listdir())
+    _xlsx_file = Path(_directory, f"{_filename}.xlsx")
     _wb_obj = openpyxl.load_workbook(_xlsx_file)
     _sheet = _wb_obj.active
     _data = []
