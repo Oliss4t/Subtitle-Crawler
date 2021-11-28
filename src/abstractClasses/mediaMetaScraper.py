@@ -6,11 +6,19 @@ class MediaMetaScraper(metaclass=ABCMeta):
         pass
 
     @abstractmethod
-    def get_movie_info_by_id(self):
+    def download_movie_info_by_ids(self):
+        pass
+
+    @abstractmethod
+    def get_movie_info_by_name(self):
         pass
 
     @abstractmethod
     def get_series_info_by_id(self):
+        pass
+
+    @abstractmethod
+    def get_series_info_by_name(self):
         pass
 
     @abstractmethod

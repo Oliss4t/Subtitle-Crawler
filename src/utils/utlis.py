@@ -1,7 +1,7 @@
 import click
 import openpyxl
 from pathlib import Path
-
+import csv
 import os
 
 def print_method_result_to_user(_result: [], _movies_found: [] = None ):
@@ -19,7 +19,6 @@ def read_from_xlsx_file(_filename: str, _directory: str) -> {}:
     :param _filename: filename of the xlsx file containing the information movie name, season, episode
     :return: dictionary of movies and series
     """
-    print(os.listdir())
     _xlsx_file = Path(_directory, f"{_filename}.xlsx")
     _wb_obj = openpyxl.load_workbook(_xlsx_file)
     _sheet = _wb_obj.active
@@ -29,3 +28,13 @@ def read_from_xlsx_file(_filename: str, _directory: str) -> {}:
         if _i != 0:
             _data.append({"query": _row[0], "season": _row[1] if _row[1] else "", "episode": _row[2] if _row[2] else ""})
     return _data
+
+
+def read_ids_from_csv(_filename: str, _directory: str) -> []:
+    csv_file_path = Path(_directory, f"{_filename}.csv")
+    ids = []
+    with open(csv_file_path) as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        for row in csv_reader:
+            ids.append(*row)
+    return ids

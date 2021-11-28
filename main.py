@@ -1,7 +1,12 @@
 import os
 import click
 from src.openSubtitleCrawler import OpenSubtitleCrawler
-from src.utils import print_method_result_to_user, read_from_xlsx_file
+from src.imdbCrawler import ImdbCrawler
+from src.utils import print_method_result_to_user, read_from_xlsx_file, read_ids_from_csv
+
+input_folder = './data/input/'
+download_folder = './data/downloads/'
+
 
 @click.group()
 @click.pass_context
@@ -18,6 +23,7 @@ def main(ctx, username, password, config_file):
     You need a valid OpenSubtitles account for the tool to work.
     You can register a free account at https://www.opensubtitles.org/de/newuser
     """
+
     filename = os.path.expanduser(config_file)
     try:
         if (not username or not username) and os.path.exists(filename):
@@ -25,6 +31,7 @@ def main(ctx, username, password, config_file):
                 _lines = cfg.readlines()
                 username = _lines[0]
                 password = _lines[1]
+                agent = _lines[2]
                 click.secho(f"Login credentials could be retrieved", fg="green", bold=True)
     except IndexError:
         click.secho(f"No login credentials could be retrieved", fg="red", bold=True)
@@ -33,6 +40,7 @@ def main(ctx, username, password, config_file):
     ctx.obj = {
         'username': username,
         'password': password,
+        'agent': agent,
         'config_file': filename,
     }
 
@@ -64,7 +72,8 @@ def config(ctx):
 
     with open(config_file, 'w') as cfg:
         cfg.write(username+"\n")
-        cfg.write(password)
+        cfg.write(password+"\n")
+        cfg.write("TemporaryUserAgent")
 
 
 @main.command()
@@ -78,17 +87,27 @@ def download(ctx, movielist, movie):
     if not(movielist or movie):
         click.secho(f"Provide a movie or movielist via '--movie' or '--movielist'", fg="red", bold=True)
     else:
-        _crawler = OpenSubtitleCrawler(ctx.obj.get('username'), ctx.obj.get('password'))
-        print_method_result_to_user(_crawler.login())
-        if movie:
-            _status, _movies_found = _crawler.search_subtitles({"query": movie, "season": "", "episode": ""})
+        _imdb_ids = read_ids_from_csv(movielist, input_folder)
+        _opensubtitle_crawler = OpenSubtitleCrawler(ctx.obj.get('username'), ctx.obj.get('password'), ctx.obj.get('agent'), download_folder)
+        _imdb_crawler = ImdbCrawler(download_folder)
 
-        if movielist:
-            _list_of_movies = read_from_xlsx_file(movielist, './input/')
-            _status, _movies_found = _crawler.search_subtitles(*_list_of_movies)
+        print_method_result_to_user(_opensubtitle_crawler.login())
+        _meta_subtitles = _opensubtitle_crawler.search_subtitles_by_id(_imdb_ids)
+        _opensubtitle_crawler.download_subtitles(_meta_subtitles)
 
-        print_method_result_to_user(_status, _movies_found)
-        print_method_result_to_user(_crawler.logout())
+        _imdb_crawler.download_movie_info_by_ids(_imdb_ids)
+
+        # _crawler = OpenSubtitleCrawler(ctx.obj.get('username'), ctx.obj.get('password'))
+        # print_method_result_to_user(_crawler.login())
+        # if movie:
+        #     _status, _movies_found = _crawler.search_subtitles({"query": movie, "season": "", "episode": ""})
+        #
+        # if movielist:
+        #     _list_of_movies = read_from_xlsx_file(movielist, './input/')
+        #     _status, _movies_found = _crawler.search_subtitles(*_list_of_movies)
+        #
+        # print_method_result_to_user(_status, _movies_found)
+        # print_method_result_to_user(_crawler.logout())
 
 @main.command()
 @click.pass_context

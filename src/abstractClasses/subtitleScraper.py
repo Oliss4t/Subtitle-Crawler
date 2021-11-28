@@ -18,17 +18,10 @@ class SubtitleScraper(metaclass=ABCMeta):
         pass
 
     @abstractmethod
-    def download_movie_subtitle_by_id(self):
+    def download_subtitles(self):
         pass
 
     @abstractmethod
-    def download_series_subtitle_by_id(self):
+    def save_subtitle_file_in_directory(self):
         pass
-
-    @abstractmethod
-    def download_season_info_by_id(self):
-        pass
-
-    @abstractmethod
-    def download_episode_info_by_id(self):
-        pass
+        #TODO not to important
