@@ -2,7 +2,7 @@ import os
 import click
 from src.openSubtitleCrawler import OpenSubtitleCrawler
 from src.imdbCrawler import ImdbCrawler
-from src.utils import print_method_result_to_user, read_from_xlsx_file, read_ids_from_csv
+from src.utils import print_method_result_to_user, read_ids_from_csv
 
 input_folder = './data/input/'
 download_folder = './data/downloads/'
@@ -16,10 +16,10 @@ download_folder = './data/downloads/'
 def main(ctx, username, password, config_file):
     """
     A subtitle scraper CLI that lets you download one or several subtitles in different languages.
-    Provide the movie name and optionally a language code.
+    Provide the movie imdbid and optionally a language code.
     Here are two examples:
-    1. "I Robot",EN
-    2. Interstellar
+    1. 0110357, EN
+    2. 0343818
     You need a valid OpenSubtitles account for the tool to work.
     You can register a free account at https://www.opensubtitles.org/de/newuser
     """
@@ -50,13 +50,8 @@ def status():
     """
     checks the status of the OpenSubtitles endpoint
     """
-    _up = "is up and running"
-    _down = "is down"
-    _open_subtitle_status = OpenSubtitleCrawler().server_status()
-    if _open_subtitle_status:
-        click.secho(f"OpenSubtitle {_up}", fg="green", bold=True)
-    else:
-        click.secho(f"OpenSubtitle {_down}", fg="red", bold=True)
+    OpenSubtitleCrawler().check_server_status().print_result_to_console()
+
 
 
 @main.command()
@@ -78,36 +73,33 @@ def config(ctx):
 
 @main.command()
 @click.pass_context
-@click.option('--movielist', '-ml', default="", help='the name of the movielist', type=str)
-@click.option('--movie', '-m', default="", help='the name of the movie', type=str)
-def download(ctx, movielist, movie):
+@click.option('--imdbid', '-i', default="", help='the imdb id of the movie', type=str)
+@click.option('--listimdbids', '-li', default="", help='list of imdbids', type=str)
+@click.option('--language', '-lang', default="", help='language of the subtitles, default "eng"', type=str)
+def download(ctx, listimdbids, imdbid, language):
     """
-    download a movie or a movielist from OpenSubtitle.
+    download a single movie subtitle or a list of movie subtitle from OpenSubtitle.
+    The input needs to be the imdb ids
     """
-    if not(movielist or movie):
-        click.secho(f"Provide a movie or movielist via '--movie' or '--movielist'", fg="red", bold=True)
+    if not(listimdbids or imdbid):
+        click.secho(f"Provide a imdbid or list of imdbids via '--imdbid' or '--listimdbids'", fg="red", bold=True)
     else:
-        _imdb_ids = read_ids_from_csv(movielist, input_folder)
-        _opensubtitle_crawler = OpenSubtitleCrawler(ctx.obj.get('username'), ctx.obj.get('password'), ctx.obj.get('agent'), download_folder)
+        _imdb_ids =[]
+        if imdbid:
+            _imdb_ids.append(imdbid)
+        if listimdbids:
+            _imdb_ids = read_ids_from_csv(listimdbids, input_folder)
+
+        _opensubtitle_crawler = OpenSubtitleCrawler(ctx.obj.get('username'), ctx.obj.get('password'), ctx.obj.get('agent'), download_folder, language)
         _imdb_crawler = ImdbCrawler(download_folder)
 
-        print_method_result_to_user(_opensubtitle_crawler.login())
+        _opensubtitle_crawler.login().print_result_to_console()
         _meta_subtitles = _opensubtitle_crawler.search_subtitles_by_id(_imdb_ids)
-        _opensubtitle_crawler.download_subtitles(_meta_subtitles)
 
-        _imdb_crawler.download_movie_info_by_ids(_imdb_ids)
+        _opensubtitle_crawler.download_subtitles(_meta_subtitles).print_result_to_console()
+        _imdb_crawler.download_movie_info_by_ids(_imdb_ids).print_result_to_console()
+        _opensubtitle_crawler.logout().print_result_to_console()
 
-        # _crawler = OpenSubtitleCrawler(ctx.obj.get('username'), ctx.obj.get('password'))
-        # print_method_result_to_user(_crawler.login())
-        # if movie:
-        #     _status, _movies_found = _crawler.search_subtitles({"query": movie, "season": "", "episode": ""})
-        #
-        # if movielist:
-        #     _list_of_movies = read_from_xlsx_file(movielist, './input/')
-        #     _status, _movies_found = _crawler.search_subtitles(*_list_of_movies)
-        #
-        # print_method_result_to_user(_status, _movies_found)
-        # print_method_result_to_user(_crawler.logout())
 
 @main.command()
 @click.pass_context
@@ -119,18 +111,11 @@ def search(ctx, movie):
     if not movie:
         click.secho(f"Provide a movie via '--movie'", fg="red", bold=True)
     else:
-        _crawler = OpenSubtitleCrawler(ctx.obj.get('username'), ctx.obj.get('password'))
-        print_method_result_to_user(_crawler.login())
-        _status, _movies_found = _crawler.search_subtitles({"query": movie, "season": "", "episode": ""})
+        _opensubtitle_crawler = OpenSubtitleCrawler(ctx.obj.get('username'), ctx.obj.get('password'))
+        print_method_result_to_user(_opensubtitle_crawler.login())
+        _status, _movies_found = _opensubtitle_crawler.search_subtitles_by_name({"query": movie, "season": "", "episode": ""})
         print_method_result_to_user(_status, _movies_found)
-        print_method_result_to_user(_crawler.logout())
-
-@main.command()
-def files():
-    """
-    list all downloaded files.
-    """
-    pass
+        print_method_result_to_user(_opensubtitle_crawler.logout())
 
 
 if __name__ == '__main__':

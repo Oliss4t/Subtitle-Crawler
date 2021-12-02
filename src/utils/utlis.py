@@ -4,14 +4,14 @@ from pathlib import Path
 import csv
 import os
 
-def print_method_result_to_user(_result: [], _movies_found: [] = None ):
-    """
-    prints the colored result from methods to the command line.
-    """
-    click.secho(_result["Success"], fg="green", bold=True)if _result["Success"] else click.secho(_result["Error"], fg="red", bold=True)
-    if _movies_found is not None:
-        for _m in _movies_found:
-            click.secho(_m['MovieReleaseName'])
+# def print_method_result_to_user(_result: [], _movies_found: [] = None ):
+#     """
+#     prints the colored result from methods to the command line.
+#     """
+#     click.secho(_result["Success"], fg="green", bold=True)if _result["Success"] else click.secho(_result["Error"], fg="red", bold=True)
+#     if _movies_found is not None:
+#         for _m in _movies_found:
+#             click.secho(_m['MovieReleaseName'])
 
 def read_from_xlsx_file(_filename: str, _directory: str) -> {}:
     """
