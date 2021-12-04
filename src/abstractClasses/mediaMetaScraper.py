@@ -2,6 +2,11 @@ from abc import ABCMeta, abstractmethod
 
 
 class MediaMetaScraper(metaclass=ABCMeta):
+    """
+    This is an abstract class defining a media crawler and the methods to implement.
+    The implementing class should scrape additional information about the movie as well as the movie image
+    and save them on the file path.
+    """
     def __init__(self):
         pass
 
@@ -10,21 +15,13 @@ class MediaMetaScraper(metaclass=ABCMeta):
         pass
 
     @abstractmethod
-    def get_movie_info_by_name(self):
+    def save_movie_infos_in_directory(self):
+        pass
+
+    @abstractmethod
+    def save_movie_image_in_directory(self):
         pass
 
     @abstractmethod
     def get_series_info_by_id(self):
-        pass
-
-    @abstractmethod
-    def get_series_info_by_name(self):
-        pass
-
-    @abstractmethod
-    def get_season_info_by_id(self):
-        pass
-
-    @abstractmethod
-    def get_episode_info_by_id(self):
         pass

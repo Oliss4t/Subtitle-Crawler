@@ -2,6 +2,10 @@ from abc import ABCMeta, abstractmethod
 
 
 class SubtitleScraper(metaclass=ABCMeta):
+    """
+    This is an abstract class defining a subtitle crawler and the methods to implement.
+    The implementing class should scrape the subtitle files, save them on the file path and allow checking the server status.
+    """
     def __init__(self):
         pass
 
@@ -24,4 +28,8 @@ class SubtitleScraper(metaclass=ABCMeta):
     @abstractmethod
     def save_subtitle_file_in_directory(self):
         pass
-        #TODO not to important
+
+    @abstractmethod
+    def search_subtitles_by_id(self):
+        pass
+

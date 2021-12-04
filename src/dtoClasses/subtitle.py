@@ -1,6 +1,22 @@
-class MetaSubtitle:
 
+
+class MetaSubtitle:
+    """
+    This class defines a meta subtitle. It contains all information about a subtitle, but not the subtitle itself.
+    """
     def __init__(self, _movie_name: str = "", _movie_release_name: str = "", _info_format: str = "", _sub_language_id: str = "", _ISO639: str = "", _movie_kind: str = "", _id_movie_imdb: str = "", _id_subtitle_file: str = "", _sub_encoding: str = ""):
+        """
+        Constructor
+        :param _movie_name: movie name of the subtitle
+        :param _movie_release_name: movie release name of the subtitle, incl. resolution, format, year...
+        :param _info_format: info foramt: e.g. BluRay
+        :param _sub_language_id: language of the subtitle
+        :param _ISO639: ISO639 code of the language of the subtitle
+        :param _movie_kind: movie kind: e.g movie or serie
+        :param _id_movie_imdb: imdb movie id
+        :param _id_subtitle_file: if of the subtitle file
+        :param _sub_encoding: the encoding of the subtitle file
+        """
         self.movie_name = _movie_name
         self.movie_release_name = _movie_release_name
         self.info_format = _info_format
@@ -9,6 +25,6 @@ class MetaSubtitle:
         self.movie_kind = _movie_kind
         self.id_movie_imdb = _id_movie_imdb
         self.id_subtitle_file = _id_subtitle_file
-        self.sub_encoding =  _sub_encoding
+        self.sub_encoding = _sub_encoding
 
 

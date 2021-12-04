@@ -31,11 +31,19 @@ class ImdbDownloadError(Exception):
         self.message = 'An OpenSubtitlSaveFilesError occured: ' + "not 200" if message is None else message
         super().__init__(self.message)
 
-class ImdbSaveFilesError(Exception):
+class ImdbSaveInfoError(Exception):
     """
-    An Exception occured during ImdbSaveFilesError
+    An Exception occured during ImdbSaveInfoError
     """
     def __init__(self, message=None):
-        self.message = 'An ImdbSaveFilesError occured: ' + "while saving the file" if message is None else message
+        self.message = 'An ImdbSaveInforError occured: ' + "while saving the info" if message is None else message
+        super().__init__(self.message)
+
+class ImdbSaveImageError(Exception):
+    """
+    An Exception occured during ImdbSaveImageError
+    """
+    def __init__(self, message=None):
+        self.message = 'An ImdbSaveImageError occured: ' + "while saving the image" if message is None else message
         super().__init__(self.message)
 

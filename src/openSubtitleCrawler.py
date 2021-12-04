@@ -18,7 +18,7 @@ class OpenSubtitleCrawler(SubtitleScraper):
     """
 
     def __init__(self, _username: str = "", _password: str = "", _agent: str = "TemporaryUserAgent",
-                 _download_directory: str = "./data/downloads/", _subtitle_language: str = "eng"):
+                 _download_directory: str = "./data/downloads/", _subtitle_language: str = ""):
         """
         Constructor
         :param _username: username of the opensubtitles account
@@ -32,11 +32,12 @@ class OpenSubtitleCrawler(SubtitleScraper):
         self.__password = _password
         self.__download_directory = _download_directory
         self.__user_agent = _agent
-        self.__language = _subtitle_language
-        self.__subtitle_language = "eng"
+        self.__language = "eng"
+        self.__subtitle_language = "eng" if _subtitle_language == "" else _subtitle_language
         self.__login_token = ""
         self.__limit_single_movie = {'limit': 2}
         self.__limit_all_movies = {'limit': 50}
+
 
     def check_server_status(self) -> CommandResponse:
         """
@@ -117,18 +118,36 @@ class OpenSubtitleCrawler(SubtitleScraper):
             _subtitle_path_gz = Path(_working_directory_str, f"{_subtitle['idsubtitlefile']}.gz")
             _subtitle_path_txt = Path(_working_directory_str, f"{_subtitle['idsubtitlefile']}.txt")
             _subtitle_path_json = Path(_working_directory_str, f"{_subtitle['idsubtitlefile']}.json")
-            with open(_subtitle_path_gz, 'wb') as f:
-                f.write(base64.b64decode(_subtitle['data']))
 
-            with open(_subtitle_path_json, 'w', encoding='utf-8') as f:
-                json.dump(_meta_subtitle.__dict__, f, ensure_ascii=False, indent=4)
+            self.save_gz_format_in_directory(_subtitle['data'], _subtitle_path_gz)
+            self.save_json_format_in_directory(_meta_subtitle, _subtitle_path_json)
+            self.save_txt_format_in_directory(_meta_subtitle, _subtitle_path_gz, _subtitle_path_txt)
 
-            with gzip.open(_subtitle_path_gz, 'rb') as f:
-                _subfile = f.read()
-                with open(_subtitle_path_txt, 'w') as f:
-                    f.write(_subfile.decode(_meta_subtitle.sub_encoding))
         except Exception as e:
             raise OpenSubtitlSaveFilesError(e.message if hasattr(e, 'message') else None)
+
+    def save_gz_format_in_directory(self, _subtitle, _directory_path):
+        """
+        saves the file subtitleid.gz (encoded gz subtitle file) in the download directory.)
+        """
+        with open(_directory_path, 'wb') as f:
+            f.write(base64.b64decode(_subtitle))
+
+    def save_json_format_in_directory(self, _meta_subtitle, _directory_path):
+        """
+        saves the file subtitleid.json (meta subtitle info) in the download directory.
+        """
+        with open(_directory_path, 'w', encoding='utf-8') as f:
+            json.dump(_meta_subtitle.__dict__, f, ensure_ascii=False, indent=4)
+
+    def save_txt_format_in_directory(self, _meta_subtitle, _directory_read_path, _directory_save_path):
+        """
+        saves the file subtitleid.txt (decoded subtitle file) in the download directory.
+        """
+        with gzip.open(_directory_read_path, 'rb') as f:
+            _subfile = f.read()
+            with open(_directory_save_path, 'w') as ff:
+                ff.write(_subfile.decode(_meta_subtitle.sub_encoding))
 
     def search_subtitles_by_id(self, _imdb_ids: [str]) -> [MetaSubtitle]:
         """
@@ -159,13 +178,14 @@ class OpenSubtitleCrawler(SubtitleScraper):
         except OpenSubtitleSearchError as e:
             raise e
 
+    ## TODO: look into tags, how can they be used
     # def search_subtitles_by_name(self, *movies) -> []:
     #     """
     #     searches opensubtitle for a list of subtitles. Returns information about found subtitles.
     #     :param *movies: dictionary of movies and series, containing the information movie name, season, episode
     #     :return: subtitle results
     #     """
-    #     #TODO: look into tags, how can they be used
+    #
     #     _movies_count_found = 0
     #     _movies_count_found = []
     #     for _movie in movies:

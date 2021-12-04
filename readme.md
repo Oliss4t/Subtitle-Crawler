@@ -8,8 +8,6 @@ access help: python main.py --help
 
 config
 download -ml/-m -a -s -i -d
-files
-search
 status
 
 
