@@ -4,6 +4,7 @@ class OpenSubtitleSearchError(Exception):
     """
     def __init__(self, message="not 200"):
         self.message = 'The OpenSubtitleSearchError returned a status that is: ' + message
+        self.__default_message = "not 200"
         super().__init__(self.message)
 
     def __eq__(self, other):

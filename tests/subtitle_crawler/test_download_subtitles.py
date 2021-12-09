@@ -26,7 +26,7 @@ class TestSubtitleCrawler(unittest.TestCase):
     @patch('src.openSubtitleCrawler.OpenSubtitleCrawler.download_subtitle_from_proxy')
     def test_download_subtitles_endpoint_error(self, download_proxy_mock):
         _meta_subtitles = mock_meta_subtitles
-        _result_error = _success_result = CommandResponse(_successful=False, _message= 'The OpenSubtitleDownloadError returned a status that is: 400')
+        _result_error = CommandResponse(_successful=False, _message= 'The OpenSubtitleDownloadError returned a status that is: 400')
 
         download_proxy_mock.return_value = mock_download_result_wrong
         self.assertEqual(self.subtitle_crawler.download_subtitles(_meta_subtitles), _result_error)
@@ -66,7 +66,7 @@ class TestSubtitleCrawler(unittest.TestCase):
         finally:
              os.remove(_directory_path)
 
-        self.assertEqual(contents, mock_success_result_save_json)
+        self.assertEqual(contents, _success_result)
 
 
 if __name__ == '__main__':
