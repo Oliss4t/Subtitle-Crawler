@@ -28,14 +28,19 @@ I started the DDD approach by doing a event storming to figure all domain events
 - [Domain and Subdomain Relationships](documentation/ddd/domains_and_sub_domains_core_domain_chart.pdf)
 - [Core Domain Chart](documentation/ddd/domains_and_sub_domains_core_domain_chart.pdf)
 #### 4. **Metrics** at least two. Sonarcube would be great. Other non trivial metrics are also fine. ####
-Sonarcube concluded the follwing results:
-- 0 Bugs
+I installed sonarqube and it concluded the follwing results. I didnt get it to work out the coverage, therefore i use the python coverage package:
+- [Sonarqube Overview](documentation/metrics/sonarqube.PNG)
+- 0 Bugs 
 - 0 Vulnerabilities
-- 7 Code Security Hotspots: After manual assessment, they are all no security vulerability. They are all http request to the opensubtitle xmlrpc api. As to date there is not https api available.
-- 15 Code Smells
-- Debt of 1h 38min, mainly of the explained things in Code Smells
-- 0.0% Coverage on 384 Lines to cove
-- 0.0% Duplications on 522 Line
+- 7 Code Security Hotspots: After manual assessment, they are all no security vulerability. They are all http request to the opensubtitle [xmlrpc api](documentation/metrics/code_smell_example6.PNG). As to date there is not https api available.
+- 15 Code Smells: After manual assessment the codesmells are also misleading: 
+    - [abstract class](documentation/metrics/code_smell_example.PNG): the abstract class is with an pass statement defined in python
+    - [method init](documentation/metrics/code_smell_example2.PNG): the init method had to many parameters, or the default definition if empty is not liked from sonarqube. Even        though it is completly vaild.
+    - [empty code](documentation/metrics/code_smell_example3.PNG): i plan to keep on working on this project, therefore i left the method header 
+    - [empty code](documentation/metrics/code_smell_example5.PNG)same reson for the out commented method 
+- Debt of 1h 28min, mainly of the explained things in Code Smells
+- [Coverage report: 76%](documentation/metrics/htmlcov/index.html)
+
 #### 5. **Clean Code Development:** at least **5** points you can show me + >>10 points on your **personal cheat sheet** ####
 Abstract Classes: to define the interface and so that we could switch out the opensubtitlescrapter with another scraper
 #### 6. **Build Management** with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. ####
