@@ -28,6 +28,14 @@ I started the DDD approach by doing a event storming to figure all domain events
 - [Domain and Subdomain Relationships](documentation/ddd/domains_and_sub_domains_core_domain_chart.pdf)
 - [Core Domain Chart](documentation/ddd/domains_and_sub_domains_core_domain_chart.pdf)
 #### 4. **Metrics** at least two. Sonarcube would be great. Other non trivial metrics are also fine. ####
+Sonarcube concluded the follwing results:
+- 0 Bugs
+- 0 Vulnerabilities
+- 7 Code Security Hotspots: After manual assessment, they are all no security vulerability. They are all http request to the opensubtitle xmlrpc api. As to date there is not https api available.
+- 15 Code Smells
+- Debt of 1h 38min, mainly of the explained things in Code Smells
+- 0.0% Coverage on 384 Lines to cove
+- 0.0% Duplications on 522 Line
 #### 5. **Clean Code Development:** at least **5** points you can show me + >>10 points on your **personal cheat sheet** ####
 Abstract Classes: to define the interface and so that we could switch out the opensubtitlescrapter with another scraper
 #### 6. **Build Management** with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. ####
