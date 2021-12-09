@@ -39,7 +39,7 @@ I installed sonarqube and it concluded the follwing results. I didnt get it to w
     - [empty code](documentation/metrics/code_smell_example3.PNG): i plan to keep on working on this project, therefore i left the method header 
     - [empty code](documentation/metrics/code_smell_example5.PNG)same reson for the out commented method 
 - Debt of 1h 28min, mainly of the explained things in Code Smells
-- [Coverage report: 76%](documentation/metrics/htmlcov/index.html)
+- [Coverage report: 76%](documentation/metrics/htmlcov/index.html) for the html to render the project needs to be downloaded.
 
 #### 5. **Clean Code Development:** at least **5** points you can show me + >>10 points on your **personal cheat sheet** ####
 Abstract Classes: to define the interface and so that we could switch out the opensubtitlescrapter with another scraper
