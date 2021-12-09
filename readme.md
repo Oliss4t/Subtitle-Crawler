@@ -32,6 +32,10 @@ I started the DDD approach by doing a event storming to figure all domain events
 Abstract Classes: to define the interface and so that we could switch out the opensubtitlescrapter with another scraper
 #### 6. **Build Management** with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. ####
 #### 7. Integrate some nice **Unit-Tests** in your Code to be integrated into the Build ####
+I created 5 unit tests for the subtitle scraper. In unittests it is important that we are in a controlled environmet so that we can really test our one code.
+But my scraper relies on fetching data and from external APIs, therefore i created several mock responses for unit testing. 
+- [Mocks/Fixures](tests/subtitle_crawler/fixtures.py)
+- [5 Unittests](tests/subtitle_crawler/test_download_subtitles.py)
 #### 8. **Continuous Delivery:** show me your pipeline in e.g. Jenkins, Travis-CI, Circle-CI, GitHub Action, GitLab CI, etc. ####
 #### 9. Use a good **IDE** and get fluent with it as e.g. IntelliJ. What are your favorite **Key-Shortcuts**?! ####
 #### 10. **DSL** Create a small DSL Demo example snippet in your code even if it does not contribute to your project ####
