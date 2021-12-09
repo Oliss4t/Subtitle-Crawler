@@ -37,15 +37,10 @@ class ImdbCrawler(MediaMetaScraper):
             _movie_infos = []
             for _imdb_id in imdb_ids:
                 _movie = self.__endpoint.get_movie(_imdb_id)
-                _directors = [Person(_id = _person.getID(), _name = _person.get('name'))for _person in _movie.get('directors')]
-                _writers = [Person(_id = _person.getID(), _name = _person.get('name'))for _person in _movie.get('writers')]
-                _producers = [Person(_id = _person.getID(), _name = _person.get('name'))for _person in _movie.get('producers')]
-                _cast = [Person(_id = _person.getID(), _name = _person.get('name'))for _person in _movie.get('cast')]
-
                 _movie_infos.append(MovieInfo(name = _movie.get('title'), _id = _movie.get('imdbID'), _year = _movie.get('year'), _image_url = _movie.get_fullsizeURL()
                                               , _genres = _movie.get('genres'), _runtimes = _movie.get('runtimes'), _votes = _movie.get('votes'), _rating = _movie.get('rating')
-                                              , _plot = _movie.get('plot outline'), _languages = _movie.get('languages'), _kind = _movie.get('kind'), _directors = _directors
-                                              , _writers = _writers, _producers = _producers, _cast = _cast
+                                              , _plot = _movie.get('plot outline'), _languages = _movie.get('languages'), _kind = _movie.get('kind'), _directors = _movie.get('directors')
+                                              , _writers = _movie.get('writers'), _producers = _movie.get('producers'), _cast = _movie.get('cast')
                                               ))
 
             self.save_movie_infos_in_directory(_movie_infos)
@@ -56,6 +51,7 @@ class ImdbCrawler(MediaMetaScraper):
         except ImdbSaveImageError as _image_e:
             return CommandResponse(_successful=False, _message=_image_e.message)
         except Exception as e:
+            print(e)
             return CommandResponse(_successful=False, _message=ImdbDownloadError(e.message if hasattr(e, 'message') else None).message)
 
 

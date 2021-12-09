@@ -80,6 +80,14 @@ class OpenSubtitleCrawler(SubtitleScraper):
         except Exception as e:
             return CommandResponse(_successful=False, _message=e.message if hasattr(e, 'message') else "Log out failed.")
 
+    def download_subtitle_from_proxy(self, _subtitle_ids):
+        """
+        calls the proxy to download the subtitles
+        :param _subtitle_ids: list of subtitle ids
+        :return: response
+        """
+        return self.__proxy.DownloadSubtitles(self.__login_token, _subtitle_ids)
+
     def download_subtitles(self, _subtitles: [MetaSubtitle]) -> CommandResponse:
         """
         downloads the subtitle files given the provided MetaSubtitle list and calls save_subtitle_file_in_directory to saves them in the download directory.
@@ -88,7 +96,7 @@ class OpenSubtitleCrawler(SubtitleScraper):
         # LIMIT is for maximum 20 IDSubtitleFiles, others will be ignored.
         _subtitle_ids = [_sub.id_subtitle_file for _sub in _subtitles]
         try:
-            _subtitle_result = self.__proxy.DownloadSubtitles(self.__login_token, _subtitle_ids)
+            _subtitle_result = self.download_subtitle_from_proxy(_subtitle_ids)
             if _subtitle_result['status'] == '200 OK':
                 _subtitle_data = _subtitle_result['data']
                 for _subtitle in _subtitle_data:
@@ -98,10 +106,13 @@ class OpenSubtitleCrawler(SubtitleScraper):
             else:
                 raise OpenSubtitleDownloadError(_subtitle_result['status'])
         except OpenSubtitleDownloadError as down_e:
+            print(down_e)
             return CommandResponse(_successful=False, _message=down_e.message)
         except OpenSubtitlSaveFilesError as save_e:
+            print(save_e)
             return CommandResponse(_successful=False, _message=save_e.message)
         except Exception as e:
+            print(e)
             return CommandResponse(_successful=False, _message=e.message if hasattr(e, 'message') else "The download failed.")
 
     def save_subtitle_file_in_directory(self, _subtitle: {}, _meta_subtitle: MetaSubtitle):
@@ -124,6 +135,7 @@ class OpenSubtitleCrawler(SubtitleScraper):
             self.save_txt_format_in_directory(_meta_subtitle, _subtitle_path_gz, _subtitle_path_txt)
 
         except Exception as e:
+            print(e)
             raise OpenSubtitlSaveFilesError(e.message if hasattr(e, 'message') else None)
 
     def save_gz_format_in_directory(self, _subtitle, _directory_path):
@@ -149,6 +161,14 @@ class OpenSubtitleCrawler(SubtitleScraper):
             with open(_directory_save_path, 'w') as ff:
                 ff.write(_subfile.decode(_meta_subtitle.sub_encoding))
 
+    def search_subtitle_from_proxy(self, _imdb_movie):
+        """
+        calls the proxy to fetch the subtitle meta
+        :param _imdb_movie: imdb id
+        :return: response
+        """
+        return self.__proxy.SearchSubtitles(self.__login_token, [_imdb_movie], self.__limit_single_movie)
+
     def search_subtitles_by_id(self, _imdb_ids: [str]) -> [MetaSubtitle]:
         """
         searches opensubtitle for a list of imdb ids. Returns information about found subtitles.
@@ -162,8 +182,7 @@ class OpenSubtitleCrawler(SubtitleScraper):
             _subtitles = []
             # limit for each movie the subtitle files
             for _imdb_movie in _search_body:
-                _search_result = self.__proxy.SearchSubtitles(self.__login_token, [_imdb_movie],
-                                                              self.__limit_single_movie)
+                _search_result = self.search_subtitle_from_proxy(_imdb_movie)
                 if _search_result['status'] == "200 OK":
                     for _r in _search_result['data']:
                         _subtitles.append(

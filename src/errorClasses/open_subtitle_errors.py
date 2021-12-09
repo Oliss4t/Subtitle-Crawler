@@ -1,11 +1,16 @@
 class OpenSubtitleSearchError(Exception):
     """
-    Exception raised for errors in the openSubtitleSearch if the returned status is not 200
+    Exception raised for errors in the OpenSubtitleSearchError if the returned status is not 200
     """
     def __init__(self, message="not 200"):
-        self.message = 'The openSubtitleSearch returned a status that is: ' + message
+        self.message = 'The OpenSubtitleSearchError returned a status that is: ' + message
         super().__init__(self.message)
 
+    def __eq__(self, other):
+        """
+        checks if OpenSubtitleSearchError object is equal to another OpenSubtitleSearchError object. Needed for Equal test.
+        """
+        return self.message == other.message
 
 class OpenSubtitleDownloadError(Exception):
     """
@@ -28,7 +33,7 @@ class ImdbDownloadError(Exception):
     An Exception occured during ImdbDownloadError
     """
     def __init__(self, message=None):
-        self.message = 'An OpenSubtitlSaveFilesError occured: ' + "not 200" if message is None else message
+        self.message = 'An ImdbDownloadError occured: ' + "not 200" if message is None else message
         super().__init__(self.message)
 
 class ImdbSaveInfoError(Exception):
@@ -36,7 +41,7 @@ class ImdbSaveInfoError(Exception):
     An Exception occured during ImdbSaveInfoError
     """
     def __init__(self, message=None):
-        self.message = 'An ImdbSaveInforError occured: ' + "while saving the info" if message is None else message
+        self.message = 'An ImdbSaveInfoError occured: ' + "while saving the info" if message is None else message
         super().__init__(self.message)
 
 class ImdbSaveImageError(Exception):

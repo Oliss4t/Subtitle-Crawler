@@ -7,7 +7,7 @@ class MovieInfo:
     e.g. the image url.
     """
     def __init__(self, name: str = "",  _id: str = "",  _year: str = "",  _image_url: str = "",  _genres: str = "",  _runtimes: str = "", _rating: str = "0", _votes: str = "",  _plot: str = ""
-                 , _languages: str = "", _kind: str = "", _directors: [Person] = [], _writers: [Person] = [], _producers: [Person] = [], _cast: [Person] = []):
+                 , _languages: str = "", _kind: str = "", _directors: [] = [], _writers: [] = [], _producers: [] = [], _cast: [] = []):
         """
         Constructor
         :param name: name of the movie
@@ -20,10 +20,10 @@ class MovieInfo:
         :param _plot: plot of the movie
         :param _votes: imdb votes of the movie
         :param _kind: kind of the movie
-        :param _directors: directors of the of the movie, list of persons
-        :param _writers: writers of the of the movie, list of persons
-        :param _producers: producers of the of the movie, list of persons
-        :param _cast: cast of the of the movie, list of persons
+        :param _directors: directors of the of the movie
+        :param _writers: writers of the of the movie
+        :param _producers: producers of the of the movie
+        :param _cast: cast of the of the movie
         """
         self.name = name
         self.id = _id
@@ -36,6 +36,10 @@ class MovieInfo:
         self.votes = _votes
         self.languages = _languages
         self.kind = _kind
+        self.directors = [Person(_id=_person.getID(), _name=_person.get('name')) for _person in _directors]
+        self.writers = [Person(_id=_person.getID(), _name=_person.get('name')) for _person in _writers]
+        self.producers = [Person(_id=_person.getID(), _name=_person.get('name')) for _person in _producers]
+        self.cast = [Person(_id=_person.getID(), _name=_person.get('name')) for _person in _cast]
         self.directors = _directors
         self.writers = _writers
         self.producers = _producers

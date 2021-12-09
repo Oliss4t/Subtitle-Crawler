@@ -27,4 +27,12 @@ class MetaSubtitle:
         self.id_subtitle_file = _id_subtitle_file
         self.sub_encoding = _sub_encoding
 
+    def __eq__(self, other):
+        """
+        checks if MetaSubtitle object is equal to another MetaSubtitle object. Needed for Equal test.
+        """
+        return self.movie_name == other.movie_name and self.movie_release_name == other.movie_release_name \
+               and self.info_format == other.info_format and self.sub_language_id == other.sub_language_id and self.ISO639 == other.ISO639 \
+               and self.movie_kind == other.movie_kind and self.id_movie_imdb == other.id_movie_imdb and self.id_subtitle_file == other.id_subtitle_file\
+               and self.sub_encoding == other.sub_encoding
 

@@ -3,7 +3,7 @@ import click
 from src.openSubtitleCrawler import OpenSubtitleCrawler
 from src.imdbCrawler import ImdbCrawler
 from src.utils import read_ids_from_csv
-
+import json
 input_folder = './data/input/'
 download_folder = './data/downloads/'
 

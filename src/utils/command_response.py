@@ -20,3 +20,9 @@ class CommandResponse:
         Unsuccessful results getting printed red.
         """
         click.secho(self.message, fg="green", bold=True) if self.successful else click.secho(self.message, fg="red", bold=True)
+
+    def __eq__(self, other):
+        """
+        checks if CommandResponse object is equal to another CommandResponse object. Needed for Equal test.
+        """
+        return self.successful == other.successful and self.message == other.message
