@@ -42,6 +42,7 @@ I installed sonarqube and it concluded the follwing results. I didnt get it to w
 - [Coverage report: 76%](documentation/metrics/htmlcov/index.html) for the html to render the project needs to be downloaded.
 
 #### 5. **Clean Code Development:** at least **5** points you can show me + >>10 points on your **personal cheat sheet** ####
+- Don´t Repeat Yourself (DRY). This can e.g. be seen in the [main.py](main/main.py#L98) 98 and following at line print_result_to_console()I started out by printing the result in 
 Abstract Classes: to define the interface and so that we could switch out the opensubtitlescrapter with another scraper
 #### 6. **Build Management** with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. ####
 #### 7. Integrate some nice **Unit-Tests** in your Code to be integrated into the Build ####
