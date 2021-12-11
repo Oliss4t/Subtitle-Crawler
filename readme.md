@@ -49,9 +49,9 @@ I installed sonarqube and it concluded the follwing results. I didnt get it to w
 - Based on the method extracting principle i was able to use the mock principle. I could patch the [download_subtitle_from_proxy](tests/subtitle_crawler/test_download_subtitles.py#L17) method an provide the appropriate [mockup](tests/subtitle_crawler/fixtures.py#L9).
 - Because python does not enforce function and variable type annotations, but i find this principle really helpful, i added [type hints](src/imdbCrawler.py#L30) in the entire project.
 - I also used the principle of only commenting the necessary things. Anything else should be clear by a good coding structure. I did that by using the [python docstring](src/openSubtitleCrawler.py#L15) feature. Therefore i explain the purpose of every class and method in this project which is then also used by the python help() function. 
-- method naming
-- Information Hiding Principle:  and private 
-- Single Responsibility Principle
+- [Method naming](src/openSubtitleCrawler.py#L118) is particular relevant for better code readability.  
+- [Information Hiding Principle](src/openSubtitleCrawler.py#L83) by making use of private functions which cannot be called from outside.
+- Using [custom error classes](src/errorClasses/open_subtitle_errors.py) for better error handling. Therefore you can better distinguish between errors and treat them differently.
 Abstract Classes: to define the interface and so that we could switch out the opensubtitlescrapter with another scraper
 #### 6. **Build Management** with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. ####
 #### 7. Integrate some nice **Unit-Tests** in your Code to be integrated into the Build ####
