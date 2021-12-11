@@ -42,6 +42,7 @@ I installed sonarqube and it concluded the follwing results. I didnt get it to w
 - [Coverage report: 76%](documentation/metrics/htmlcov/index.html) for the html to render the project needs to be downloaded.
 
 #### 5. **Clean Code Development:** at least **5** points you can show me + >>10 points on your **personal cheat sheet** ####
+My personal cheat sheet is [here](documentation/cleanCode/clean_code_cheat%20sheet.pdf). From there i applied the following elements:
 - Don´t Repeat Yourself (DRY). This can e.g. be seen in the [main.py](main.py#L98) line 98 and following at "print_result_to_console()". First i started out by using the print command "click.secho(self.message, fg="green", bold=True) if self.successful else click.secho(self.message, fg="red", bold=True)" in each line. That is a lot of repetition. Then i created a extra method for that, but i got in trouble with different response types.
 - Therefore i decided to create an extra [Command Response](src/utils/command_response.py) class which handels the type and the print statement. Therefore i could also use the nice method chaining as you can [see](main.py#L98). This also corresponds with the Single Responsibility Principle (SRP). 
 - I also made use of abstract classes for the [subtitle scraper](abstractClasses/subtitleScraper.py) and the [media scraper](abstractClasses/mediaMetaScraper.py). Therefore i defined which methods the inherited class needs to implement and can later switch out e.g. the opendsubtitle api for an other api provide more easily.
