@@ -42,7 +42,16 @@ I installed sonarqube and it concluded the follwing results. I didnt get it to w
 - [Coverage report: 76%](documentation/metrics/htmlcov/index.html) for the html to render the project needs to be downloaded.
 
 #### 5. **Clean Code Development:** at least **5** points you can show me + >>10 points on your **personal cheat sheet** ####
-- Don´t Repeat Yourself (DRY). This can e.g. be seen in the [main.py](main.py#L98) 98 and following at line print_result_to_console()I started out by printing the result in 
+- Don´t Repeat Yourself (DRY). This can e.g. be seen in the [main.py](main.py#L98) line 98 and following at "print_result_to_console()". First i started out by using the print command "click.secho(self.message, fg="green", bold=True) if self.successful else click.secho(self.message, fg="red", bold=True)" in each line. That is a lot of repetition. Then i created a extra method for that, but i got in trouble with different response types.
+- Single Responsibility Principle (SRP) Therefore i decided to create an extra "Command Response" class wich handels the type and the print statement. Therefore i could also use the nice method chaining as you can see.
+- Method extracting:
+- Abstraction
+- Mockups
+- typing — Support for type hints:
+- python docstring. That way, help(add) will also spit out your
+- method naming
+- Information Hiding Principle:  and private 
+- Single Responsibility Principle
 Abstract Classes: to define the interface and so that we could switch out the opensubtitlescrapter with another scraper
 #### 6. **Build Management** with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. ####
 #### 7. Integrate some nice **Unit-Tests** in your Code to be integrated into the Build ####
