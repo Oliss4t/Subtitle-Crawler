@@ -46,10 +46,9 @@ I installed sonarqube and it concluded the follwing results. I didnt get it to w
 - Therefore i decided to create an extra [Command Response](src/utils/command_response.py) class wich handels the type and the print statement. Therefore i could also use the nice method chaining as you can [see](main.py#L98). This also corresponse with the Single Responsibility Principle (SRP). 
 - I also made use of abstract classes for the [subtitle scraper](abstractClasses/subtitleScraper.py) and the [media scraper](abstractClasses/mediaMetaScraper.py). Therefore i defined which methods the inherited class needs to implement and can later switch out e.g. the opendsubtitle api for an other api provide more easily.
 - I also used [method extracting](src/openSubtitleCrawler.py#L83) for cleaner readable code, or [here](src/openSubtitleCrawler.py#L141).
-- 
-- Mockups
-- typing — Support for type hints:
-- python docstring. That way, help(add) will also spit out your
+- Based on the method extracting principle i was able to use the mock principle. I could patch the [download_subtitle_from_proxy](tests/subtitle_crawler/test_download_subtitles.py#L17) method an provide the appropriate [mockup](tests/subtitle_crawler/fixtures.py#L9).
+- Because python does not enforce function and variable type annotations, but i find this principle really helpful, i added [type hints](src/imdbCrawler.py#L30) in the entire project.
+- I also used the principle of only commenting the necessary things. Anything else should be clear by a good coding structure. I did that by using the [python docstring](src/openSubtitleCrawler.py#L15) feature. Therefore i explain the purpose of every class and method in this project which is then also used by the python help() function. 
 - method naming
 - Information Hiding Principle:  and private 
 - Single Responsibility Principle
