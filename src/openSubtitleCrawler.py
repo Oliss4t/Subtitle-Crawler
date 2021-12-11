@@ -80,7 +80,7 @@ class OpenSubtitleCrawler(SubtitleScraper):
         except Exception as e:
             return CommandResponse(_successful=False, _message=e.message if hasattr(e, 'message') else "Log out failed.")
 
-    def download_subtitle_from_proxy(self, _subtitle_ids):
+    def __download_subtitle_from_proxy(self, _subtitle_ids):
         """
         calls the proxy to download the subtitles
         :param _subtitle_ids: list of subtitle ids
@@ -96,7 +96,7 @@ class OpenSubtitleCrawler(SubtitleScraper):
         # LIMIT is for maximum 20 IDSubtitleFiles, others will be ignored.
         _subtitle_ids = [_sub.id_subtitle_file for _sub in _subtitles]
         try:
-            _subtitle_result = self.download_subtitle_from_proxy(_subtitle_ids)
+            _subtitle_result = self.__download_subtitle_from_proxy(_subtitle_ids)
             if _subtitle_result['status'] == '200 OK':
                 _subtitle_data = _subtitle_result['data']
                 for _subtitle in _subtitle_data:

@@ -1,0 +1,3825 @@
+{
+    "py/object": "src.dtoClasses.movieinfo.MovieInfo",
+    "name": "The Lion King",
+    "id": "0110357",
+    "year": 1994,
+    "image_url": "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@.jpg",
+    "genres": [
+        "Animation",
+        "Adventure",
+        "Drama",
+        "Family",
+        "Musical"
+    ],
+    "runtimes": [
+        "88"
+    ],
+    "rating": 8.5,
+    "plot": "A young lion prince is cast out of his pride by his cruel uncle, who claims he killed his father. While the uncle rules with an iron paw, the prince grows up beyond the Savannah, living by a philosophy: No worries for the rest of your days. But when his past comes to haunt him, the young prince must decide his fate: Will he remain an outcast or face his demons and become what he needs to be?",
+    "votes": 994994,
+    "languages": [
+        "English",
+        "Swahili",
+        "Xhosa",
+        "Zulu"
+    ],
+    "kind": "movie",
+    "directors": [
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Roger Allers"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0021249",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Rob Minkoff"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0591450",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        }
+    ],
+    "writers": [
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Irene Mecchi"
+            },
+            "myID": null,
+            "notes": "(screenplay by)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0575293",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Jonathan Roberts"
+            },
+            "myID": null,
+            "notes": "(screenplay by)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0731271",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Linda Woolverton"
+            },
+            "myID": null,
+            "notes": "(screenplay by)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0941314",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {},
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": null,
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Burny Mattinson"
+            },
+            "myID": null,
+            "notes": "(story)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0560329",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Barry Johnson"
+            },
+            "myID": null,
+            "notes": "(story)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0424556",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Lorna Cook"
+            },
+            "myID": null,
+            "notes": "(story)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0177170",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Thom Enriquez"
+            },
+            "myID": null,
+            "notes": "(story)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0258059",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Andy Gaskill"
+            },
+            "myID": null,
+            "notes": "(story)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0309128",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Gary Trousdale"
+            },
+            "myID": null,
+            "notes": "(story)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0873779",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Jim Capobianco"
+            },
+            "myID": null,
+            "notes": "(story)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0135296",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Kevin Harkey"
+            },
+            "myID": null,
+            "notes": "(story)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0363125",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Jorgen Klubien"
+            },
+            "myID": null,
+            "notes": "(story)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0460146",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Chris Sanders"
+            },
+            "myID": null,
+            "notes": "(story)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0761498",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Tom Sito"
+            },
+            "myID": null,
+            "notes": "(story)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0004552",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Larry Leker"
+            },
+            "myID": null,
+            "notes": "(story)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0500858",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Joe Ranft"
+            },
+            "myID": null,
+            "notes": "(story)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0710020",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Rick Maki"
+            },
+            "myID": null,
+            "notes": "(story)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0538588",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Ed Gombert"
+            },
+            "myID": null,
+            "notes": "(story)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0326814",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Francis Glebas"
+            },
+            "myID": null,
+            "notes": "(story)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0322368",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Mark Kausler"
+            },
+            "myID": null,
+            "notes": "(story)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0442483",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {},
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": null,
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "J.T. Allen"
+            },
+            "myID": null,
+            "notes": "(additional story material)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0020599",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "George Scribner"
+            },
+            "myID": null,
+            "notes": "(additional story material)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0780117",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Miguel Tejada-Flores"
+            },
+            "myID": null,
+            "notes": "(additional story material)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0854185",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Jenny Tripp"
+            },
+            "myID": null,
+            "notes": "(additional story material)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0873092",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Bob Tzudiker"
+            },
+            "myID": null,
+            "notes": "(additional story material)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0879318",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Christopher Vogler"
+            },
+            "myID": null,
+            "notes": "(additional story material) (as Chris Vogler)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0901038",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Kirk Wise"
+            },
+            "myID": null,
+            "notes": "(additional story material)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0936374",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Noni White"
+            },
+            "myID": null,
+            "notes": "(additional story material)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0925276",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {},
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": null,
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Brenda Chapman"
+            },
+            "myID": null,
+            "notes": "(story supervisor)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0152312",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        }
+    ],
+    "producers": [
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Alice Dewey Goldstone"
+            },
+            "myID": null,
+            "notes": "associate producer (as Alice Dewey)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0223107",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Don Hahn"
+            },
+            "myID": null,
+            "notes": "producer",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0353893",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Sarah McArthur"
+            },
+            "myID": null,
+            "notes": "executive producer",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0564138",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Thomas Schumacher"
+            },
+            "myID": null,
+            "notes": "executive producer",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "personID": "0776665",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        }
+    ],
+    "cast": [
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Rowan Atkinson"
+            },
+            "myID": null,
+            "notes": "(voice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Zazu"
+                },
+                "myID": null,
+                "notes": "(voice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0000100",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Matthew Broderick"
+            },
+            "myID": null,
+            "notes": "(voice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Simba"
+                },
+                "myID": null,
+                "notes": "(voice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0000111",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Niketa Calame-Harris"
+            },
+            "myID": null,
+            "notes": "(voice) (as Niketa Calame)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Young Nala"
+                },
+                "myID": null,
+                "notes": "(voice) (as Niketa Calame)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0129295",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Jim Cummings"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.utils.RolesList",
+                "_notes": null,
+                "py/seq": [
+                    {
+                        "py/object": "imdb.Character.Character",
+                        "data": {
+                            "name": "Ed"
+                        },
+                        "myID": null,
+                        "notes": "",
+                        "titlesRefs": {},
+                        "namesRefs": {},
+                        "charactersRefs": {},
+                        "modFunct": {
+                            "py/function": "imdb.utils.modClearRefs"
+                        },
+                        "current_info": [],
+                        "infoset2keys": {},
+                        "key2infoset": {},
+                        "_Container__role": null,
+                        "characterID": "",
+                        "myName": "",
+                        "accessSystem": "http",
+                        "keys_tomodify": {
+                            "biography": null,
+                            "quotes": null
+                        },
+                        "_roleIsPerson": false,
+                        "_roleClass": {
+                            "py/type": "imdb.Character.Character"
+                        }
+                    },
+                    {
+                        "py/object": "imdb.Character.Character",
+                        "data": {
+                            "name": "Scar"
+                        },
+                        "myID": null,
+                        "notes": "",
+                        "titlesRefs": {},
+                        "namesRefs": {},
+                        "charactersRefs": {},
+                        "modFunct": {
+                            "py/function": "imdb.utils.modClearRefs"
+                        },
+                        "current_info": [],
+                        "infoset2keys": {},
+                        "key2infoset": {},
+                        "_Container__role": null,
+                        "characterID": null,
+                        "myName": "",
+                        "accessSystem": "http",
+                        "keys_tomodify": {
+                            "biography": null,
+                            "quotes": null
+                        },
+                        "_roleIsPerson": false,
+                        "_roleClass": {
+                            "py/type": "imdb.Character.Character"
+                        }
+                    }
+                ]
+            },
+            "personID": "0191906",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Whoopi Goldberg"
+            },
+            "myID": null,
+            "notes": "(voice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Shenzi"
+                },
+                "myID": null,
+                "notes": "(voice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0000155",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Robert Guillaume"
+            },
+            "myID": null,
+            "notes": "(voice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Rafiki"
+                },
+                "myID": null,
+                "notes": "(voice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0347039",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Jeremy Irons"
+            },
+            "myID": null,
+            "notes": "(voice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Scar"
+                },
+                "myID": null,
+                "notes": "(voice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0000460",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "James Earl Jones"
+            },
+            "myID": null,
+            "notes": "(voice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Mufasa"
+                },
+                "myID": null,
+                "notes": "(voice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0000469",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Moira Kelly"
+            },
+            "myID": null,
+            "notes": "(voice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Nala"
+                },
+                "myID": null,
+                "notes": "(voice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0446702",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Nathan Lane"
+            },
+            "myID": null,
+            "notes": "(voice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Timon"
+                },
+                "myID": null,
+                "notes": "(voice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0001447",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Zoe Leader"
+            },
+            "myID": null,
+            "notes": "(voice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Sarafina"
+                },
+                "myID": null,
+                "notes": "(voice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0494922",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Cheech Marin"
+            },
+            "myID": null,
+            "notes": "(voice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Banzai"
+                },
+                "myID": null,
+                "notes": "(voice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0001507",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Ernie Sabella"
+            },
+            "myID": null,
+            "notes": "(voice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Pumbaa"
+                },
+                "myID": null,
+                "notes": "(voice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0754676",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Madge Sinclair"
+            },
+            "myID": null,
+            "notes": "(voice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Sarabi"
+                },
+                "myID": null,
+                "notes": "(voice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0801672",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Jonathan Taylor Thomas"
+            },
+            "myID": null,
+            "notes": "(voice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Young Simba"
+                },
+                "myID": null,
+                "notes": "(voice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0001795",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Frank Welker"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.utils.RolesList",
+                "_notes": null,
+                "py/seq": [
+                    {
+                        "py/object": "imdb.Character.Character",
+                        "data": {
+                            "name": "Lion Roars"
+                        },
+                        "myID": null,
+                        "notes": "",
+                        "titlesRefs": {},
+                        "namesRefs": {},
+                        "charactersRefs": {},
+                        "modFunct": {
+                            "py/function": "imdb.utils.modClearRefs"
+                        },
+                        "current_info": [],
+                        "infoset2keys": {},
+                        "key2infoset": {},
+                        "_Container__role": null,
+                        "characterID": "",
+                        "myName": "",
+                        "accessSystem": "http",
+                        "keys_tomodify": {
+                            "biography": null,
+                            "quotes": null
+                        },
+                        "_roleIsPerson": false,
+                        "_roleClass": {
+                            "py/type": "imdb.Character.Character"
+                        }
+                    },
+                    {
+                        "py/object": "imdb.Character.Character",
+                        "data": {
+                            "name": "Hyenas"
+                        },
+                        "myID": null,
+                        "notes": "",
+                        "titlesRefs": {},
+                        "namesRefs": {},
+                        "charactersRefs": {},
+                        "modFunct": {
+                            "py/function": "imdb.utils.modClearRefs"
+                        },
+                        "current_info": [],
+                        "infoset2keys": {},
+                        "key2infoset": {},
+                        "_Container__role": null,
+                        "characterID": null,
+                        "myName": "",
+                        "accessSystem": "http",
+                        "keys_tomodify": {
+                            "biography": null,
+                            "quotes": null
+                        },
+                        "_roleIsPerson": false,
+                        "_roleClass": {
+                            "py/type": "imdb.Character.Character"
+                        }
+                    },
+                    {
+                        "py/object": "imdb.Character.Character",
+                        "data": {
+                            "name": "Wildebeests"
+                        },
+                        "myID": null,
+                        "notes": "",
+                        "titlesRefs": {},
+                        "namesRefs": {},
+                        "charactersRefs": {},
+                        "modFunct": {
+                            "py/function": "imdb.utils.modClearRefs"
+                        },
+                        "current_info": [],
+                        "infoset2keys": {},
+                        "key2infoset": {},
+                        "_Container__role": null,
+                        "characterID": null,
+                        "myName": "",
+                        "accessSystem": "http",
+                        "keys_tomodify": {
+                            "biography": null,
+                            "quotes": null
+                        },
+                        "_roleIsPerson": false,
+                        "_roleClass": {
+                            "py/type": "imdb.Character.Character"
+                        }
+                    }
+                ]
+            },
+            "personID": "0919798",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Cathy Cavadini"
+            },
+            "myID": null,
+            "notes": "(voice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Additional Voices"
+                },
+                "myID": null,
+                "notes": "(voice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0146681",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Judi M. Durand"
+            },
+            "myID": null,
+            "notes": "(voice) (as Judi Durand)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Additional Voices"
+                },
+                "myID": null,
+                "notes": "(voice) (as Judi Durand)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0243804",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Daamen J. Krall"
+            },
+            "myID": null,
+            "notes": "(voice) (as Daamen Krall)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Additional Voices"
+                },
+                "myID": null,
+                "notes": "(voice) (as Daamen Krall)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0469411",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "David McCharen"
+            },
+            "myID": null,
+            "notes": "(voice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Additional Voices"
+                },
+                "myID": null,
+                "notes": "(voice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0565567",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Mary Linda Phillips"
+            },
+            "myID": null,
+            "notes": "(voice) (as Linda Phillips)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Additional Voices"
+                },
+                "myID": null,
+                "notes": "(voice) (as Linda Phillips)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0680628",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Phil Proctor"
+            },
+            "myID": null,
+            "notes": "(voice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Additional Voices"
+                },
+                "myID": null,
+                "notes": "(voice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0698413",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "David Randolph"
+            },
+            "myID": null,
+            "notes": "(voice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Additional Voices"
+                },
+                "myID": null,
+                "notes": "(voice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0709890",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Jeff Bennett"
+            },
+            "myID": null,
+            "notes": "(segment \"Morning Report\") (uncredited) (singingVoice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Zazu"
+                },
+                "myID": null,
+                "notes": "(segment \"Morning Report\") (uncredited) (singingVoice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0071818",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Sally Dworsky"
+            },
+            "myID": null,
+            "notes": "(uncredited) (singingVoice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Nala"
+                },
+                "myID": null,
+                "notes": "(uncredited) (singingVoice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0245460",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Paul Rausmussen"
+            },
+            "myID": null,
+            "notes": "(uncredited)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Animal Vocalizations"
+                },
+                "myID": null,
+                "notes": "(uncredited)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0712180",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Evan Saucedo"
+            },
+            "myID": null,
+            "notes": "(segment \"Morning Report\") (uncredited) (singingVoice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Young Simba"
+                },
+                "myID": null,
+                "notes": "(segment \"Morning Report\") (uncredited) (singingVoice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "1494182",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Brian Tochi"
+            },
+            "myID": null,
+            "notes": "(uncredited) (voice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Fighting Hyena"
+                },
+                "myID": null,
+                "notes": "(uncredited) (voice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0865058",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Jason Weaver"
+            },
+            "myID": null,
+            "notes": "(uncredited) (singingVoice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Young Simba"
+                },
+                "myID": null,
+                "notes": "(uncredited) (singingVoice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0915868",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Joseph Williams"
+            },
+            "myID": null,
+            "notes": "(uncredited) (singingVoice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Simba"
+                },
+                "myID": null,
+                "notes": "(uncredited) (singingVoice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0930990",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        },
+        {
+            "py/object": "imdb.Person.Person",
+            "data": {
+                "name": "Laura Williams"
+            },
+            "myID": null,
+            "notes": "(uncredited) (singingVoice)",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": null,
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": {
+                "py/object": "imdb.Character.Character",
+                "data": {
+                    "name": "Young Nala"
+                },
+                "myID": null,
+                "notes": "(uncredited) (singingVoice)",
+                "titlesRefs": {},
+                "namesRefs": {},
+                "charactersRefs": {},
+                "modFunct": {
+                    "py/function": "imdb.utils.modClearRefs"
+                },
+                "current_info": [],
+                "infoset2keys": {},
+                "key2infoset": {},
+                "_Container__role": null,
+                "characterID": null,
+                "myName": "",
+                "accessSystem": "http",
+                "keys_tomodify": {
+                    "biography": null,
+                    "quotes": null
+                },
+                "_roleIsPerson": false,
+                "_roleClass": {
+                    "py/type": "imdb.Character.Character"
+                }
+            },
+            "personID": "0931128",
+            "myName": "",
+            "billingPos": null,
+            "accessSystem": "http",
+            "keys_tomodify": {
+                "mini biography": null,
+                "spouse": null,
+                "quotes": null,
+                "other works": null,
+                "salary history": null,
+                "trivia": null,
+                "trade mark": null,
+                "news": null,
+                "books": null,
+                "biographical movies": null,
+                "portrayed in": null,
+                "where now": null,
+                "interviews": null,
+                "article": null,
+                "biography from leonard maltin's movie encyclopedia": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": {
+                "py/type": "imdb.Character.Character"
+            }
+        }
+    ]
+}
