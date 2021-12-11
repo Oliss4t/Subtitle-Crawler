@@ -32,18 +32,18 @@ I installed sonarqube and it concluded the follwing results. I didnt get it to w
 - [Sonarqube Overview](documentation/metrics/sonarqube.PNG)
 - 0 Bugs 
 - 0 Vulnerabilities
-- 7 Code Security Hotspots: After manual assessment, they are all no security vulerability. They are all http request to the opensubtitle [xmlrpc api](documentation/metrics/code_smell_example6.PNG). As to date there is not https api available.
+- 7 Code Security Hotspots: After manual assessment, they are all no security vulnerability. They are all http request to the opensubtitle [xmlrpc api](documentation/metrics/code_smell_example6.PNG). As to date there is not https api available.
 - 15 Code Smells: After manual assessment the codesmells are also misleading: 
     - [abstract class](documentation/metrics/code_smell_example.PNG): the abstract class is with an pass statement defined in python
     - [method init](documentation/metrics/code_smell_example2.PNG): the init method had to many parameters, or the default definition if empty is not liked from sonarqube. Even        though it is completly vaild.
     - [empty code](documentation/metrics/code_smell_example3.PNG): i plan to keep on working on this project, therefore i left the method header 
-    - [empty code](documentation/metrics/code_smell_example5.PNG)same reson for the out commented method 
+    - [empty code](documentation/metrics/code_smell_example5.PNG)same reason for the out commented method 
 - Debt of 1h 28min, mainly of the explained things in Code Smells
 - [Coverage report: 76%](documentation/metrics/htmlcov/index.html) for the html to render the project needs to be downloaded.
 
 #### 5. **Clean Code Development:** at least **5** points you can show me + >>10 points on your **personal cheat sheet** ####
 - Don´t Repeat Yourself (DRY). This can e.g. be seen in the [main.py](main.py#L98) line 98 and following at "print_result_to_console()". First i started out by using the print command "click.secho(self.message, fg="green", bold=True) if self.successful else click.secho(self.message, fg="red", bold=True)" in each line. That is a lot of repetition. Then i created a extra method for that, but i got in trouble with different response types.
-- Therefore i decided to create an extra [Command Response](src/utils/command_response.py) class wich handels the type and the print statement. Therefore i could also use the nice method chaining as you can [see](main.py#L98). This also corresponse with the Single Responsibility Principle (SRP). 
+- Therefore i decided to create an extra [Command Response](src/utils/command_response.py) class which handels the type and the print statement. Therefore i could also use the nice method chaining as you can [see](main.py#L98). This also corresponds with the Single Responsibility Principle (SRP). 
 - I also made use of abstract classes for the [subtitle scraper](abstractClasses/subtitleScraper.py) and the [media scraper](abstractClasses/mediaMetaScraper.py). Therefore i defined which methods the inherited class needs to implement and can later switch out e.g. the opendsubtitle api for an other api provide more easily.
 - I also used [method extracting](src/openSubtitleCrawler.py#L83) for cleaner readable code, or [here](src/openSubtitleCrawler.py#L141).
 - Based on the method extracting principle i was able to use the mock principle. I could patch the [download_subtitle_from_proxy](tests/subtitle_crawler/test_download_subtitles.py#L17) method an provide the appropriate [mockup](tests/subtitle_crawler/fixtures.py#L9).
@@ -55,9 +55,9 @@ I installed sonarqube and it concluded the follwing results. I didnt get it to w
 Abstract Classes: to define the interface and so that we could switch out the opensubtitlescrapter with another scraper
 #### 6. **Build Management** with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. ####
 #### 7. Integrate some nice **Unit-Tests** in your Code to be integrated into the Build ####
-I created 5 unit tests for the subtitle scraper. In unittests it is important that we are in a controlled environmet so that we can really test our one code.
+I created 5 unit tests for the subtitle scraper. In unittests it is important that we are in a controlled environment so that we can really test our one code.
 But my scraper relies on fetching data and from external APIs, therefore i created several mock responses for unit testing. 
-- [Mocks/Fixures](tests/subtitle_crawler/fixtures.py)
+- [Mocks/Fixtures](tests/subtitle_crawler/fixtures.py)
 - [5 Unittests](tests/subtitle_crawler/test_download_subtitles.py)
 #### 8. **Continuous Delivery:** show me your pipeline in e.g. Jenkins, Travis-CI, Circle-CI, GitHub Action, GitLab CI, etc. ####
 #### 9. Use a good **IDE** and get fluent with it as e.g. IntelliJ. What are your favorite **Key-Shortcuts**?! ####
