@@ -1,0 +1,1 @@
+from .openSubtitleCrawler import OpenSubtitleCrawler

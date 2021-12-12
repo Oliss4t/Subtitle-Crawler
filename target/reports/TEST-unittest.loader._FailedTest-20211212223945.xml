@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="unittest.loader._FailedTest-20211212223945" tests="1" file="unittest/loader.py" time="0.000" timestamp="2021-12-12T22:39:46" failures="0" errors="1" skipped="0">
+	<testcase classname="unittest.loader._FailedTest" name="download_subtitles_tests" time="0.000" timestamp="2021-12-12T22:39:46">
+		<error type="ImportError" message="Failed to import test module: download_subtitles_tests
+Traceback (most recent call last):
+  File &quot;c:\program files\python39\lib\unittest\loader.py&quot;, line 154, in loadTestsFromName
+    module = __import__(module_name)
+  File &quot;c:\users\henninta\pycharmprojects\python_subtitle_crawler\src\unittest\python\download_subtitles_tests.py&quot;, line 6, in &lt;module&gt;
+    from .fixtures import mock_download_result, mock_download_result_wrong, mock_search_result, mock_search_result_wrong, mock_meta_subtitles, mock_success_result_save_json
+ImportError: attempted relative import with no known parent package
+"><![CDATA[Traceback (most recent call last):
+  File "c:\program files\python39\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "c:\program files\python39\lib\unittest\case.py", line 593, in run
+    self._callTestMethod(testMethod)
+  File "c:\program files\python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "c:\program files\python39\lib\unittest\loader.py", line 34, in testFailure
+    raise self._exception
+ImportError: Failed to import test module: download_subtitles_tests
+Traceback (most recent call last):
+  File "c:\program files\python39\lib\unittest\loader.py", line 154, in loadTestsFromName
+    module = __import__(module_name)
+  File "c:\users\henninta\pycharmprojects\python_subtitle_crawler\src\unittest\python\download_subtitles_tests.py", line 6, in <module>
+    from .fixtures import mock_download_result, mock_download_result_wrong, mock_search_result, mock_search_result_wrong, mock_meta_subtitles, mock_success_result_save_json
+ImportError: attempted relative import with no known parent package
+
+]]></error>
+	</testcase>
+</testsuite>

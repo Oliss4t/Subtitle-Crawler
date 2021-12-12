@@ -1,0 +1,243 @@
+Collecting imdbpy>=2021.4
+  Using cached IMDbPY-2021.4.18-py3-none-any.whl (298 kB)
+Collecting jsonpickle>=2.0
+  Using cached jsonpickle-2.0.0-py2.py3-none-any.whl (37 kB)
+Collecting lxml
+  Using cached lxml-4.6.5-cp39-cp39-win_amd64.whl (3.5 MB)
+Collecting SQLAlchemy
+  Using cached SQLAlchemy-1.4.28-cp39-cp39-win_amd64.whl (1.5 MB)
+Collecting greenlet!=0.4.17
+  Using cached greenlet-1.1.2-cp39-cp39-win_amd64.whl (101 kB)
+Installing collected packages: greenlet, SQLAlchemy, lxml, jsonpickle, imdbpy
+Successfully installed SQLAlchemy-1.4.28 greenlet-1.1.2 imdbpy-2021.4.18 jsonpickle-2.0.0 lxml-4.6.5
+Collecting plantuml
+  Using cached plantuml-0.3.0-py3-none-any.whl (5.8 kB)
+Collecting httplib2
+  Using cached httplib2-0.20.2-py3-none-any.whl (96 kB)
+Collecting pyparsing!=3.0.0,!=3.0.1,!=3.0.2,!=3.0.3,<4,>=2.4.2
+  Using cached pyparsing-3.0.6-py3-none-any.whl (97 kB)
+Installing collected packages: pyparsing, httplib2, plantuml
+Successfully installed httplib2-0.20.2 plantuml-0.3.0 pyparsing-3.0.6
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Collecting openpyxl
+  Using cached openpyxl-3.0.9-py2.py3-none-any.whl (242 kB)
+Collecting et-xmlfile
+  Using cached et_xmlfile-1.1.0-py3-none-any.whl (4.7 kB)
+Installing collected packages: et-xmlfile, openpyxl
+Successfully installed et-xmlfile-1.1.0 openpyxl-3.0.9
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Collecting click
+  Using cached click-8.0.3-py3-none-any.whl (97 kB)
+Collecting colorama
+  Using cached colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Installing collected packages: colorama, click
+Successfully installed click-8.0.3 colorama-0.4.4
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\scripts\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\test\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)

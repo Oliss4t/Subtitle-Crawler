@@ -1,0 +1,103 @@
+WARNING: '.' not a valid package name; please use only .-separated package names in setup.py
+running clean
+'build\lib' does not exist -- can't clean it
+'build\bdist.win-amd64' does not exist -- can't clean it
+'build\scripts-3.9' does not exist -- can't clean it
+running bdist_wheel
+running build
+running build_py
+creating build
+creating build\lib
+copying main.py -> build\lib
+copying __init__.py -> build\lib
+creating build\lib\abstract_classes
+copying abstract_classes\mediaMetaScraper.py -> build\lib\abstract_classes
+copying abstract_classes\subtitleScraper.py -> build\lib\abstract_classes
+copying abstract_classes\__init__.py -> build\lib\abstract_classes
+creating build\lib\dto_classes
+copying dto_classes\movieinfo.py -> build\lib\dto_classes
+copying dto_classes\person.py -> build\lib\dto_classes
+copying dto_classes\subtitle.py -> build\lib\dto_classes
+copying dto_classes\__init__.py -> build\lib\dto_classes
+creating build\lib\error_classes
+copying error_classes\open_subtitle_errors.py -> build\lib\error_classes
+copying error_classes\__init__.py -> build\lib\error_classes
+creating build\lib\media_crawler
+copying media_crawler\imdbCrawler.py -> build\lib\media_crawler
+copying media_crawler\__init__.py -> build\lib\media_crawler
+creating build\lib\subtitle_crawler
+copying subtitle_crawler\openSubtitleCrawler.py -> build\lib\subtitle_crawler
+copying subtitle_crawler\__init__.py -> build\lib\subtitle_crawler
+creating build\lib\utils
+copying utils\command_response.py -> build\lib\utils
+copying utils\utlis.py -> build\lib\utils
+copying utils\__init__.py -> build\lib\utils
+c:\users\henninta\pycharmprojects\python_subtitle_crawler\.pybuilder\plugins\cpython-3.9.6.final.0\lib\site-packages\setuptools\command\install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+installing to build\bdist.win-amd64\wheel
+running install
+running install_lib
+creating build\bdist.win-amd64
+creating build\bdist.win-amd64\wheel
+creating build\bdist.win-amd64\wheel\abstract_classes
+copying build\lib\abstract_classes\mediaMetaScraper.py -> build\bdist.win-amd64\wheel\.\abstract_classes
+copying build\lib\abstract_classes\subtitleScraper.py -> build\bdist.win-amd64\wheel\.\abstract_classes
+copying build\lib\abstract_classes\__init__.py -> build\bdist.win-amd64\wheel\.\abstract_classes
+creating build\bdist.win-amd64\wheel\dto_classes
+copying build\lib\dto_classes\movieinfo.py -> build\bdist.win-amd64\wheel\.\dto_classes
+copying build\lib\dto_classes\person.py -> build\bdist.win-amd64\wheel\.\dto_classes
+copying build\lib\dto_classes\subtitle.py -> build\bdist.win-amd64\wheel\.\dto_classes
+copying build\lib\dto_classes\__init__.py -> build\bdist.win-amd64\wheel\.\dto_classes
+creating build\bdist.win-amd64\wheel\error_classes
+copying build\lib\error_classes\open_subtitle_errors.py -> build\bdist.win-amd64\wheel\.\error_classes
+copying build\lib\error_classes\__init__.py -> build\bdist.win-amd64\wheel\.\error_classes
+copying build\lib\main.py -> build\bdist.win-amd64\wheel\.
+creating build\bdist.win-amd64\wheel\media_crawler
+copying build\lib\media_crawler\imdbCrawler.py -> build\bdist.win-amd64\wheel\.\media_crawler
+copying build\lib\media_crawler\__init__.py -> build\bdist.win-amd64\wheel\.\media_crawler
+creating build\bdist.win-amd64\wheel\subtitle_crawler
+copying build\lib\subtitle_crawler\openSubtitleCrawler.py -> build\bdist.win-amd64\wheel\.\subtitle_crawler
+copying build\lib\subtitle_crawler\__init__.py -> build\bdist.win-amd64\wheel\.\subtitle_crawler
+creating build\bdist.win-amd64\wheel\utils
+copying build\lib\utils\command_response.py -> build\bdist.win-amd64\wheel\.\utils
+copying build\lib\utils\utlis.py -> build\bdist.win-amd64\wheel\.\utils
+copying build\lib\utils\__init__.py -> build\bdist.win-amd64\wheel\.\utils
+copying build\lib\__init__.py -> build\bdist.win-amd64\wheel\.
+running install_egg_info
+running egg_info
+writing python_subtitle_crawler.egg-info\PKG-INFO
+writing dependency_links to python_subtitle_crawler.egg-info\dependency_links.txt
+writing namespace_packages to python_subtitle_crawler.egg-info\namespace_packages.txt
+writing requirements to python_subtitle_crawler.egg-info\requires.txt
+writing top-level names to python_subtitle_crawler.egg-info\top_level.txt
+reading manifest file 'python_subtitle_crawler.egg-info\SOURCES.txt'
+writing manifest file 'python_subtitle_crawler.egg-info\SOURCES.txt'
+Copying python_subtitle_crawler.egg-info to build\bdist.win-amd64\wheel\.\python_subtitle_crawler-1.0-py3.9.egg-info
+running install_scripts
+creating build\bdist.win-amd64\wheel\python_subtitle_crawler-1.0.dist-info\WHEEL
+creating 'dist\python_subtitle_crawler-1.0-py3-none-any.whl' and adding 'build\bdist.win-amd64\wheel' to it
+adding '__init__.py'
+adding 'main.py'
+adding 'abstract_classes/__init__.py'
+adding 'abstract_classes/mediaMetaScraper.py'
+adding 'abstract_classes/subtitleScraper.py'
+adding 'dto_classes/__init__.py'
+adding 'dto_classes/movieinfo.py'
+adding 'dto_classes/person.py'
+adding 'dto_classes/subtitle.py'
+adding 'error_classes/__init__.py'
+adding 'error_classes/open_subtitle_errors.py'
+adding 'media_crawler/__init__.py'
+adding 'media_crawler/imdbCrawler.py'
+adding 'subtitle_crawler/__init__.py'
+adding 'subtitle_crawler/openSubtitleCrawler.py'
+adding 'utils/__init__.py'
+adding 'utils/command_response.py'
+adding 'utils/utlis.py'
+adding 'python_subtitle_crawler-1.0.dist-info/METADATA'
+adding 'python_subtitle_crawler-1.0.dist-info/WHEEL'
+adding 'python_subtitle_crawler-1.0.dist-info/namespace_packages.txt'
+adding 'python_subtitle_crawler-1.0.dist-info/top_level.txt'
+adding 'python_subtitle_crawler-1.0.dist-info/zip-safe'
+adding 'python_subtitle_crawler-1.0.dist-info/RECORD'
+removing build\bdist.win-amd64\wheel

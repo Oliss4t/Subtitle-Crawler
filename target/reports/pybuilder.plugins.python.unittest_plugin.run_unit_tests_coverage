@@ -1,0 +1,22 @@
+Name                                       Stmts   Miss Branch BrPart  Cover
+----------------------------------------------------------------------------
+\__init__.py                                   0      0      0      0   100%
+\abstract_classes\__init__.py                  2      0      0      0   100%
+\abstract_classes\mediametascraper.py         16      5      0      0    69%
+\abstract_classes\subtitlescraper.py          22      7      0      0    68%
+\dto_classes\__init__.py                       3      0      0      0   100%
+\dto_classes\movieinfo.py                     22     19      8      0    10%
+\dto_classes\person.py                         7      3      2      0    44%
+\dto_classes\subtitle.py                      13      0      0      0   100%
+\error_classes\__init__.py                     1      0      0      0   100%
+\error_classes\open_subtitle_errors.py        26      8      0      0    69%
+\main.py                                      60     60     10      0     0%
+\media_crawler\__init__.py                     1      1      0      0     0%
+\media_crawler\imdbcrawler.py                 50     50     10      0     0%
+\subtitle_crawler\__init__.py                  1      0      0      0   100%
+\subtitle_crawler\opensubtitlecrawler.py     106     31     26      1    70%
+\utils\__init__.py                             2      0      0      0   100%
+\utils\command_response.py                     9      1      0      0    89%
+\utils\utlis.py                               20     15      6      0    19%
+----------------------------------------------------------------------------
+TOTAL                                        361    200     62      1    42%

@@ -1,0 +1,58 @@
+WARNING: '.' not a valid package name; please use only .-separated package names in setup.py
+running clean
+'build\lib' does not exist -- can't clean it
+'build\bdist.win-amd64' does not exist -- can't clean it
+'build\scripts-3.9' does not exist -- can't clean it
+running sdist
+running egg_info
+creating python_subtitle_crawler.egg-info
+writing python_subtitle_crawler.egg-info\PKG-INFO
+writing dependency_links to python_subtitle_crawler.egg-info\dependency_links.txt
+writing namespace_packages to python_subtitle_crawler.egg-info\namespace_packages.txt
+writing requirements to python_subtitle_crawler.egg-info\requires.txt
+writing top-level names to python_subtitle_crawler.egg-info\top_level.txt
+writing manifest file 'python_subtitle_crawler.egg-info\SOURCES.txt'
+reading manifest file 'python_subtitle_crawler.egg-info\SOURCES.txt'
+writing manifest file 'python_subtitle_crawler.egg-info\SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+creating python_subtitle_crawler-1.0
+creating python_subtitle_crawler-1.0\abstract_classes
+creating python_subtitle_crawler-1.0\dto_classes
+creating python_subtitle_crawler-1.0\error_classes
+creating python_subtitle_crawler-1.0\media_crawler
+creating python_subtitle_crawler-1.0\python_subtitle_crawler.egg-info
+creating python_subtitle_crawler-1.0\subtitle_crawler
+creating python_subtitle_crawler-1.0\utils
+copying files to python_subtitle_crawler-1.0...
+copying __init__.py -> python_subtitle_crawler-1.0
+copying main.py -> python_subtitle_crawler-1.0
+copying setup.py -> python_subtitle_crawler-1.0
+copying abstract_classes\__init__.py -> python_subtitle_crawler-1.0\abstract_classes
+copying abstract_classes\mediaMetaScraper.py -> python_subtitle_crawler-1.0\abstract_classes
+copying abstract_classes\subtitleScraper.py -> python_subtitle_crawler-1.0\abstract_classes
+copying dto_classes\__init__.py -> python_subtitle_crawler-1.0\dto_classes
+copying dto_classes\movieinfo.py -> python_subtitle_crawler-1.0\dto_classes
+copying dto_classes\person.py -> python_subtitle_crawler-1.0\dto_classes
+copying dto_classes\subtitle.py -> python_subtitle_crawler-1.0\dto_classes
+copying error_classes\__init__.py -> python_subtitle_crawler-1.0\error_classes
+copying error_classes\open_subtitle_errors.py -> python_subtitle_crawler-1.0\error_classes
+copying media_crawler\__init__.py -> python_subtitle_crawler-1.0\media_crawler
+copying media_crawler\imdbCrawler.py -> python_subtitle_crawler-1.0\media_crawler
+copying python_subtitle_crawler.egg-info\PKG-INFO -> python_subtitle_crawler-1.0\python_subtitle_crawler.egg-info
+copying python_subtitle_crawler.egg-info\SOURCES.txt -> python_subtitle_crawler-1.0\python_subtitle_crawler.egg-info
+copying python_subtitle_crawler.egg-info\dependency_links.txt -> python_subtitle_crawler-1.0\python_subtitle_crawler.egg-info
+copying python_subtitle_crawler.egg-info\namespace_packages.txt -> python_subtitle_crawler-1.0\python_subtitle_crawler.egg-info
+copying python_subtitle_crawler.egg-info\requires.txt -> python_subtitle_crawler-1.0\python_subtitle_crawler.egg-info
+copying python_subtitle_crawler.egg-info\top_level.txt -> python_subtitle_crawler-1.0\python_subtitle_crawler.egg-info
+copying python_subtitle_crawler.egg-info\zip-safe -> python_subtitle_crawler-1.0\python_subtitle_crawler.egg-info
+copying subtitle_crawler\__init__.py -> python_subtitle_crawler-1.0\subtitle_crawler
+copying subtitle_crawler\openSubtitleCrawler.py -> python_subtitle_crawler-1.0\subtitle_crawler
+copying utils\__init__.py -> python_subtitle_crawler-1.0\utils
+copying utils\command_response.py -> python_subtitle_crawler-1.0\utils
+copying utils\utlis.py -> python_subtitle_crawler-1.0\utils
+Writing python_subtitle_crawler-1.0\setup.cfg
+creating dist
+Creating tar archive
+removing 'python_subtitle_crawler-1.0' (and everything under it)

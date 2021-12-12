@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="unittest.loader._FailedTest-20211212223343" tests="1" file="unittest/loader.py" time="0.016" timestamp="2021-12-12T22:33:44" failures="0" errors="1" skipped="0">
+	<testcase classname="unittest.loader._FailedTest" name="download_subtitles_tests" time="0.016" timestamp="2021-12-12T22:33:44">
+		<error type="ImportError" message="Failed to import test module: download_subtitles_tests
+Traceback (most recent call last):
+  File &quot;c:\program files\python39\lib\unittest\loader.py&quot;, line 154, in loadTestsFromName
+    module = __import__(module_name)
+  File &quot;c:\users\henninta\pycharmprojects\python_subtitle_crawler\src\unittest\python\download_subtitles_tests.py&quot;, line 5, in &lt;module&gt;
+    from openSubtitleCrawler import OpenSubtitleCrawler
+  File &quot;c:\users\henninta\pycharmprojects\python_subtitle_crawler\src\main\python\openSubtitleCrawler.py&quot;, line 2, in &lt;module&gt;
+    from src.main.python.abstractClasses.subtitleScraper import SubtitleScraper
+ModuleNotFoundError: No module named 'src'
+"><![CDATA[Traceback (most recent call last):
+  File "c:\program files\python39\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "c:\program files\python39\lib\unittest\case.py", line 593, in run
+    self._callTestMethod(testMethod)
+  File "c:\program files\python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "c:\program files\python39\lib\unittest\loader.py", line 34, in testFailure
+    raise self._exception
+ImportError: Failed to import test module: download_subtitles_tests
+Traceback (most recent call last):
+  File "c:\program files\python39\lib\unittest\loader.py", line 154, in loadTestsFromName
+    module = __import__(module_name)
+  File "c:\users\henninta\pycharmprojects\python_subtitle_crawler\src\unittest\python\download_subtitles_tests.py", line 5, in <module>
+    from openSubtitleCrawler import OpenSubtitleCrawler
+  File "c:\users\henninta\pycharmprojects\python_subtitle_crawler\src\main\python\openSubtitleCrawler.py", line 2, in <module>
+    from src.main.python.abstractClasses.subtitleScraper import SubtitleScraper
+ModuleNotFoundError: No module named 'src'
+
+]]></error>
+	</testcase>
+</testsuite>
