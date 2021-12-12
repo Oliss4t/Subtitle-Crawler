@@ -1,5 +1,6 @@
 WARNING: '.' not a valid package name; please use only .-separated package names in setup.py
 running clean
+'build\temp.win-amd64-3.9' does not exist -- can't clean it
 'build\lib' does not exist -- can't clean it
 'build\bdist.win-amd64' does not exist -- can't clean it
 'build\scripts-3.9' does not exist -- can't clean it
@@ -52,6 +53,11 @@ copying subtitle_crawler\openSubtitleCrawler.py -> python_subtitle_crawler-1.0\s
 copying utils\__init__.py -> python_subtitle_crawler-1.0\utils
 copying utils\command_response.py -> python_subtitle_crawler-1.0\utils
 copying utils\utlis.py -> python_subtitle_crawler-1.0\utils
+not copying python_subtitle_crawler.egg-info\SOURCES.txt (output up-to-date)
+Reading configuration from python_subtitle_crawler-1.0\setup.cfg
+Adding new section [egg_info] to python_subtitle_crawler-1.0\setup.cfg
+Setting egg_info.tag_build to '' in python_subtitle_crawler-1.0\setup.cfg
+Setting egg_info.tag_date to 0 in python_subtitle_crawler-1.0\setup.cfg
 Writing python_subtitle_crawler-1.0\setup.cfg
 creating dist
 Creating tar archive

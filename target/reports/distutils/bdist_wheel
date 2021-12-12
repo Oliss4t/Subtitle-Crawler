@@ -1,5 +1,6 @@
 WARNING: '.' not a valid package name; please use only .-separated package names in setup.py
 running clean
+'build\temp.win-amd64-3.9' does not exist -- can't clean it
 'build\lib' does not exist -- can't clean it
 'build\bdist.win-amd64' does not exist -- can't clean it
 'build\scripts-3.9' does not exist -- can't clean it
@@ -73,6 +74,13 @@ writing top-level names to python_subtitle_crawler.egg-info\top_level.txt
 reading manifest file 'python_subtitle_crawler.egg-info\SOURCES.txt'
 writing manifest file 'python_subtitle_crawler.egg-info\SOURCES.txt'
 Copying python_subtitle_crawler.egg-info to build\bdist.win-amd64\wheel\.\python_subtitle_crawler-1.0-py3.9.egg-info
+Copying dependency_links.txt to build\bdist.win-amd64\wheel\.\python_subtitle_crawler-1.0-py3.9.egg-info\dependency_links.txt
+Copying namespace_packages.txt to build\bdist.win-amd64\wheel\.\python_subtitle_crawler-1.0-py3.9.egg-info\namespace_packages.txt
+Copying PKG-INFO to build\bdist.win-amd64\wheel\.\python_subtitle_crawler-1.0-py3.9.egg-info\PKG-INFO
+Copying requires.txt to build\bdist.win-amd64\wheel\.\python_subtitle_crawler-1.0-py3.9.egg-info\requires.txt
+Copying SOURCES.txt to build\bdist.win-amd64\wheel\.\python_subtitle_crawler-1.0-py3.9.egg-info\SOURCES.txt
+Copying top_level.txt to build\bdist.win-amd64\wheel\.\python_subtitle_crawler-1.0-py3.9.egg-info\top_level.txt
+Copying zip-safe to build\bdist.win-amd64\wheel\.\python_subtitle_crawler-1.0-py3.9.egg-info\zip-safe
 running install_scripts
 creating build\bdist.win-amd64\wheel\python_subtitle_crawler-1.0.dist-info\WHEEL
 creating 'dist\python_subtitle_crawler-1.0-py3-none-any.whl' and adding 'build\bdist.win-amd64\wheel' to it

@@ -55,7 +55,8 @@ My personal cheat sheet is [here](docs/cleanCode/clean_code_cheat%20sheet.pdf). 
 - Using [custom error classes](src/main/python/error_classes/open_subtitle_errors.py) for better error handling. Therefore you can better distinguish between errors and treat them differently.
 Abstract Classes: to define the interface and so that we could switch out the opensubtitlescrapter with another scraper
 #### 6. **Build Management** with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. ####
-I used pybuilder as a build management tool. With the build manager i generate my uml diagrams via plantuml, call the unittests and make sure everything from the requirements.txt is installed.
+I used pybuilder as a build management tool. With the build manager i generate my [uml diagrams](build.py#53) via plantuml, call the unittests and make sure every [required package](build.py#38) is installed.
+Here you can see the [successful build](docs/buildManager/pybuilder.PNG).
 #### 7. Integrate some nice **Unit-Tests** in your Code to be integrated into the Build ####
 I created 5 unit tests for the subtitle scraper. In unittests it is important that we are in a controlled environment so that we can really test our one code.
 But my scraper relies on fetching data and from external APIs, therefore i created several mock responses for unit testing. 

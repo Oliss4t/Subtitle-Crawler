@@ -260,3 +260,8 @@ Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmproje
 Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\build\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
 Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\build\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
 Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\build\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
+Requirement already satisfied: imdbpy>=2021.4 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\build\cpython-3.9.6.final.0\lib\site-packages (2021.4.18)
+Requirement already satisfied: jsonpickle>=2.0 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\build\cpython-3.9.6.final.0\lib\site-packages (2.0.0)
+Requirement already satisfied: SQLAlchemy in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\build\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (1.4.28)
+Requirement already satisfied: lxml in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\build\cpython-3.9.6.final.0\lib\site-packages (from imdbpy>=2021.4) (4.6.5)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\henninta\pycharmprojects\python_subtitle_crawler\target\venv\build\cpython-3.9.6.final.0\lib\site-packages (from SQLAlchemy->imdbpy>=2021.4) (1.1.2)
