@@ -102,8 +102,6 @@ I used the following small examples of domain-specific language patterns.
   - I created a [command line interface](docs/tutorial/CLI.png) with the python package click. This enables the user to check the server status, configure a user and download subtitles.
     He also gets [visual feedback](docs/tutorial/response_message.png) via color if the command was successful or not. 
 #### 11. **Functional Programming** (prove that you have covered all functional aspects in your code as ####
-####  - only final data structures ####
-####  - (mostly) side effect free functions ####
-####  - the use of higher-order functions ####
-####  - functions as parameters and return values ####
-####  - use closures / anonymous functions ####
+I came up with the FP example to check whether a subtitleId is already downloaded or not.
+I only use final data structures, mostly side effect free functions, an anonymous lambda function and also provides a function as an argument. I also only use f higher-order functions (map instead of foreach).
+The simple check can be found [here](functional_programming_example.py) 
