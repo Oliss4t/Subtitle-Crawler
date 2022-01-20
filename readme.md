@@ -1,6 +1,6 @@
-This is a project from Tassilo Henninger for the Data Science Master class "advanced software engineering" at the Berliner Hochschule für Technik (BHT)
+###This is a project from Tassilo Henninger for the Data Science Master class "advanced software engineering" at the Berliner Hochschule für Technik (BHT)###
 
-Explanation of the project:
+####Explanation of the project####
 I created a command line tool for downloading subtitles and additional information regarding the movie.
 
 You need a valid OpenSubtitles account for the tool to work.
@@ -8,26 +8,27 @@ You can register a free account at https://www.opensubtitles.org/de/newuser .
 By default you are using opensubtitle agent "TemporaryUserAgent" which is limited in downloading. 
 You can request your own agent at https://trac.opensubtitles.org/projects/opensubtitles/wiki/DevReadFirst .
 
+![This is an image](docs/tutorial/CLI.png)
 
-Commands:
-    - access help: python main.py --help
-    - setup config: python main.py config
-    - after the config is created, you can add an agent in line 3 of the config file
-    - check server status of OpenSubtitles: python main.py status
-    - download movies:
-        - to see the detailed help type: python main.py download --help
-        - you can download one or several subtitles in different languages. You need to provide the movie imdbid and optionally a language code, default "eng".
-        - To download multiple subtitle at once, you can provide an .csv file of imdb ids inside /data/input/.
-        - Here are three examples:
-            1) python main.py download -i 816692 -lang
-            2) python main.py download -i 343818 -lang "ger"
-            3) python main.py download -li "imdb_ids"
-        - Two found subitles for one movie will be saved in /data/downloads/imdbid/ with the following files.
-            - subtitleid.gz zipped file
-            - subtitleid.txt clear text
-            - subtitleid.json movie meta info from opensubtitle
-            - moviename.jpg movie cover image from imdb
-            - moviename.json movie meta info from imdb
+####Commands####
+- access help: python main.py --help
+- setup config: python main.py config
+- after the config is created, you can add an agent in line 3 of the config file
+- check server status of OpenSubtitles: python main.py status
+- download movies:
+    - to see the detailed help type: python main.py download --help
+    - you can download one or several subtitles in different languages. You need to provide the movie imdbid and optionally a language code, default "eng".
+    - To download multiple subtitle at once, you can provide an .csv file of imdb ids inside /data/input/.
+    - Here are three examples:
+     1. python main.py download -i 816692 -lang
+     2. python main.py download -i 343818 -lang "ger"
+     3. python main.py download -li "imdb_ids"
+    - Two found subitles for one movie will be saved in /data/downloads/imdbid/ with the following files.
+        - subtitleid.gz zipped file
+        - subtitleid.txt clear text
+        - subtitleid.json movie meta info from opensubtitle
+        - moviename.jpg movie cover image from imdb
+        - moviename.json movie meta info from imdb
 
  
 #### 1. Use and understand **Git!** ####
