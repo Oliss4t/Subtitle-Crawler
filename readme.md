@@ -8,7 +8,7 @@ You can register a free account at https://www.opensubtitles.org/de/newuser .
 By default you are using opensubtitle agent "TemporaryUserAgent" which is limited in downloading. 
 You can request your own agent at https://trac.opensubtitles.org/projects/opensubtitles/wiki/DevReadFirst .
 
-![This is an image](docs/tutorial/CLI.png)
+![This is an image](docs/tutorial/response_message.png)
 
 #### Commands ####
 - access help: python main.py --help
