@@ -13,7 +13,8 @@ download_folder = './data/downloads/'
 @click.option('--config-file', '-c', type=click.Path(), help='the location of your config file, default is "./config.cfg"', default='./config.cfg')
 @click.option('--username', '-u', help='your OpenSubtitle username', type=str)
 @click.option('--password', '-p', help='your OpenSubtitle password', type=str)
-def main(ctx, username, password, config_file):
+@click.option('--agent', '-a', help='your OpenSubtitle agent', type=str)
+def main(ctx, username, password, agent, config_file):
     """
     A subtitle scraper CLI that lets you download one or several subtitles in different languages.
     Provide the movie imdbid and optionally a language code, default "eng".
