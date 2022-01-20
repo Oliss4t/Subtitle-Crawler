@@ -1,16 +1,35 @@
-Explanation of the project:
-Command line tool for downloading subtitles and additional information regarding the movie
+This is a project from Tassilo Henninger for the Data Science Master class "advanced software engineering" at the Berliner Hochschule für Technik (BHT)
 
-Installation:
+Explanation of the project:
+I created a command line tool for downloading subtitles and additional information regarding the movie.
+
+You need a valid OpenSubtitles account for the tool to work.
+You can register a free account at https://www.opensubtitles.org/de/newuser .
+By default you are using opensubtitle agent "TemporaryUserAgent" which is limited in downloading. 
+You can request your own agent at https://trac.opensubtitles.org/projects/opensubtitles/wiki/DevReadFirst .
+
 
 Commands:
-access help: python main.py --help
+    - access help: python main.py --help
+    - setup config: python main.py config
+    - after the config is created, you can add an agent in line 3 of the config file
+    - check server status of OpenSubtitles: python main.py status
+    - download movies:
+        - to see the detailed help type: python main.py download --help
+        - you can download one or several subtitles in different languages. You need to provide the movie imdbid and optionally a language code, default "eng".
+        - To download multiple subtitle at once, you can provide an .csv file of imdb ids inside /data/input/.
+        - Here are three examples:
+            1) python main.py download -i 816692 -lang
+            2) python main.py download -i 343818 -lang "ger"
+            3) python main.py download -li "imdb_ids"
+        - Two found subitles for one movie will be saved in /data/downloads/imdbid/ with the following files.
+            - subtitleid.gz zipped file
+            - subtitleid.txt clear text
+            - subtitleid.json movie meta info from opensubtitle
+            - moviename.jpg movie cover image from imdb
+            - moviename.json movie meta info from imdb
 
-config
-download -ml/-m -a -s -i -d
-status
-
-
+ 
 #### 1. Use and understand **Git!** ####
 Look around here in the version control ;)
 #### 2. **UML** at least **3** good diagrams. "good" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please export the pics. I can not install all tools to view them! ####
@@ -63,10 +82,24 @@ But my scraper relies on fetching data and from external APIs, therefore i creat
 - [Mocks/Fixtures](src/unittest/python/fixtures.py)
 - [5 Unittests](src/unittest/python/download_subtitles_tests.py)
 #### 8. **Continuous Delivery:** show me your pipeline in e.g. Jenkins, Travis-CI, Circle-CI, GitHub Action, GitLab CI, etc. ####
+I used Jenkins for coninuous delivery. First I had troubles configuring the right [working directory](docs/jenkins/Jenkins_5.JPG), but after that i was able to build the project successfully as you can see in the following screenshots [project overview](docs/jenkins/Jenkins_1.JPG), [build output 1](docs/jenkins/Jenkins_2.JPG), [build output 2](docs/jenkins/Jenkins_3.JPG), [build](docs/jenkins/Jenkins_4.JPG).
+I included the following script calls:
+  - first I trigger the [pybuilder build](docs/jenkins/Jenkins_6.JPG)
+  - than I [send an email](docs/jenkins/Jenkins_7.JPG) after successful build via a [python script](send_mail.py)
+  - first i also wanted to generate the UML documentation from jenkins, but than decided to do that in pybuilder instead.
 #### 9. Use a good **IDE** and get fluent with it as e.g. IntelliJ. What are your favorite **Key-Shortcuts**?! ####
-I used the pycharm IDE for this project as you can see here. My favorite things and shortcuts are the following:
-- the rendered view of the readme.md is nice.
+I used the pycharm IDE for this project as you can see e.g. from the screenshot from [build management](docs/buildManager/pybuilder.PNG).
+My favorite things and shortcuts are the following:
+  - the [rendered view](docs/pycharm/readme_rendering.png) of the readme.md is nice.
+  - configure commands in the [debug configuration](docs/pycharm/debug_configuration.png)
+  - block comment (control + umschalt + #)
+  - Refactor this (control + alt+ umschalt +T)
+  - Run (F10)
 #### 10. **DSL** Create a small DSL Demo example snippet in your code even if it does not contribute to your project ####
+I used the following small examples of domain-specific language patterns.
+  - I used [method chaining](src/main/python/main.py#L98) which follows the fluent interface principle
+  - I created a [command line interface](docs/tutorial/CLI.png) with the python package click. This enables the user to check the server status, configure a user and download subtitles.
+    He also gets [visual feedback](docs/tutorial/response_message.png) via color if the command was successful or not. 
 #### 11. **Functional Programming** (prove that you have covered all functional aspects in your code as ####
 ####  - only final data structures ####
 ####  - (mostly) side effect free functions ####
