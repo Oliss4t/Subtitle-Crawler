@@ -1,6 +1,6 @@
-###This is a project from Tassilo Henninger for the Data Science Master class "advanced software engineering" at the Berliner Hochschule für Technik (BHT)###
+### This is a project from Tassilo Henninger for the Data Science Master class "advanced software engineering" at the Berliner Hochschule für Technik (BHT) ###
 
-####Explanation of the project####
+#### Explanation of the project ####
 I created a command line tool for downloading subtitles and additional information regarding the movie.
 
 You need a valid OpenSubtitles account for the tool to work.
@@ -10,7 +10,7 @@ You can request your own agent at https://trac.opensubtitles.org/projects/opensu
 
 ![This is an image](docs/tutorial/CLI.png)
 
-####Commands####
+#### Commands ####
 - access help: python main.py --help
 - setup config: python main.py config
 - after the config is created, you can add an agent in line 3 of the config file
