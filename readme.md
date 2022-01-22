@@ -98,7 +98,7 @@ My favorite things and shortcuts are the following:
   - Run (F10)
 #### 10. **DSL** Create a small DSL Demo example snippet in your code even if it does not contribute to your project ####
 I used the following small examples of domain-specific language patterns.
-  - I used [method chaining](src/main/python/main.py#L99-L105) which follows the fluent interface principle
+  - I used [method chaining](src/main/python/main.py#L99-L104) which follows the fluent interface principle. In those examples I call a method of the opensubtitle_crawler, which return a CommandResponse object, which implements the print_result_to_console() method, which therefore can be invoked. 
   - I created a [command line interface](docs/tutorial/CLI.png) with the python package click. This enables the user to check the server status, configure a user and download subtitles.
     He also gets [visual feedback](docs/tutorial/response_message.png) via color if the command was successful or not. 
 #### 11. **Functional Programming** (prove that you have covered all functional aspects in your code as ####
